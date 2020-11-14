@@ -1,0 +1,128 @@
+@font-face {
+    font-family: 'OpenSans-Regular';
+    src: url('OpenSans-Regular.ttf');
+
+    font-family: 'Brutal Type';
+    src: url('BrutalType.ttf');
+
+    font-family: 'Arial';
+    src: url('Arial.ttf');
+    
+    font-family: 'Eurostile';
+    src: url('EurostileExtendedBlack.ttf');
+}
+
+*{
+    font-family: 'Brutal Type';
+    color: white;
+}
+
+.content {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    height: 528.28px;
+}
+
+.content-text {
+    width: 58%;
+    margin-left: 11%;
+    margin-top: 5%
+}
+
+#BgVideo1 {
+    position: absolute;
+    height: 70%;
+    width: 100%;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#BgVideo2 {
+    width: 100%;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.intro {
+    margin-top: 34%;
+    color: white;
+}
+
+.text-box1 {
+    text-align: center;
+    width: 80%;
+    height: auto;
+    margin-top: 10%;
+    margin-bottom: 6%;
+}
+
+.text-box2 {
+    padding: 7%;
+    padding-right: 8.5%;
+}
+
+.text-box3 {
+    text-align: center;
+    height: auto;
+    padding: 8%;
+    margin-top: 3%;
+    margin-bottom: 1%;
+}
+
+.text-box4 {
+    margin-top: 10%;
+}
+
+.text-box5 {
+    background-color: #232323;
+    padding: 3%;
+    margin: 1%;
+    border-radius: 3% 3% 3% 3%;
+}
+
+.text-box6 {
+    background-color: #232323;
+    padding: 5%;
+}
+
+img {
+    max-width: 100%;
+}
+
+.main {
+    background-color: #111111;
+}
+
+.image {
+    padding: 3%;
+    margin-top: 4%;
+}
+
+.image-box-Bg-1 {
+    background-repeat: no-repeat;
+    background: url("source\\img\\Unreal+Engine_industry_broadcast-live-events_Broadcast_Live_ZeroDensity_c1640x1000-(1)-1640x1000-871dc45fb2dff71e40ea79332aea6e720f01abd0.png") center center;
+    background-size: cover;
+    width: 100%;
+}
+
+.image-box-Bg-2 {
+    background-repeat: no-repeat;
+    background: url("source\\img\\Unreal+Engine_industry_broadcast-live-events_Imagecourtesyof2n,WetaDigitalandWolfRothstein2018_img2-1920x1080-bd6cd5ef723fa58655599e5b0fbc705e03bf3099.png") center center;
+    background-size: cover;
+}
+
+.image-box-Bg-3 {
+    background-repeat: no-repeat;
+    background: url("source\\img\\Unreal+Engine_industry_broadcast-live-events_Broadcast_ESPN_1640x1080-1640x1000-3dd0954228591c74d2fa5719d0509255750cd09a.jpg") center center;
+    background-size: cover;
+}
+
+.image-box {
+    padding: 3%;
+    padding-top: 6%;
+    padding-bottom: 3%;
+}
