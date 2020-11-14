@@ -1,0 +1,129 @@
+@font-face {
+    font-family: 'OpenSans-Regular';
+    src: url('OpenSans-Regular.ttf');
+
+    font-family: 'Brutal Type';
+    src: url('BrutalType.ttf');
+
+    font-family: 'Arial';
+    src: url('Arial.ttf');
+    
+    font-family: 'Eurostile';
+    src: url('EurostileExtendedBlack.ttf');
+}
+
+*{
+    font-family: 'Brutal Type';
+    color: white;
+}
+
+.content {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    height: 528.28px;
+}
+
+.content-text {
+    width: 58%;
+    margin-left: 11%;
+    margin-top: 5%
+}
+
+#BgVideo1 {
+    position: absolute;
+    height: 70%;
+    width: 100%;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#BgVideo2 {
+    height: 70%;
+    width: 100%;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.intro {
+    margin-top: 34%;
+    color: white;
+}
+
+.text-box1 {
+    text-align: center;
+    width: 80%;
+    height: auto;
+    margin-top: 10%;
+    margin-bottom: 6%;
+}
+
+.text-box2 {
+    padding: 7%;
+    padding-right: 8.5%;
+}
+
+.text-box3 {
+    text-align: center;
+    height: auto;
+    padding: 8%;
+    margin-top: 3%;
+    margin-bottom: 1%;
+}
+
+.text-box4 {
+    margin-top: 10%;
+}
+
+.text-box5 {
+    background-color: #232323;
+    padding: 3%;
+    margin: 1%;
+    border-radius: 3% 3% 3% 3%;
+}
+
+.text-box6 {
+    background-color: #232323;
+    padding: 5%;
+}
+
+img {
+    max-width: 100%;
+}
+
+.main {
+    background-color: #111111;
+}
+
+.image {
+    padding: 3%;
+    margin-top: 4%;
+}
+
+.image-box-Bg-1 {
+    background-repeat: no-repeat;
+    background: url("source\\img\\Unreal+Engine_spotlights_octopath-traveler-s-hd-2d-art-style-and-story-make-for-a-jrpg-dream-come-true_FEATURE_UESpotlight_OctopathTraveler-1920x960-e4bc4ed015e47b2a3fd01915a1f15f8b9fee7113.jpg") center center;
+    background-size: cover;
+    width: 100%;
+}
+
+.image-box-Bg-2 {
+    background-repeat: no-repeat;
+    background: url("source\\img\\Unreal+Engine_spotlights_it-s-all-about-the-details-for-train-sim-world-developer-dovetail_FEATURE_UESpotlight_Dovetail_TrainSimWorld_v2-1920x960-32ffc620ea5907fe9fbe245722ef70f542ded0a2.jpg") center center;
+    background-size: cover;
+}
+
+.image-box-Bg-3 {
+    background-repeat: no-repeat;
+    background: url("source\\img\\Unreal+Engine_spotlights_switching-to-unreal-engine-cornfox-bros-is-moving-mobile-gaming-forward-with-oceanhorn-2_FEATURE_Oceanhorn2_Spotlight-1920x960-d80676032742e9888c40ff978043a35587a18133.jpg") center center;
+    background-size: cover;
+}
+
+.image-box {
+    padding: 3%;
+    padding-top: 6%;
+    padding-bottom: 3%;
+}
