@@ -1,0 +1,572 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link href="industry.css" rel="stylesheet">
+    <link rel="shortcut icon" href="\source\img\apple-touch-icon.png?v=3">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Game Engine | Build Multi-Platform Video Games – Unreal Engine - Unreal Engine</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg" width="100%" style="background-color: #2a2a2a;"> 
+        <img id="epic" src="\source\img\epic.png" href="https://www.epicgames.com/store/en-US/">
+        <img id="unr" src="\source\img\UNREAL.png" href="index.html">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse navbar-expand-lg" id="navbar">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="news.html">NEWS</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        ABOUT
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="feature.html">FEATURES</a>
+                        <a class="dropdown-item" href="what's new.html">WHAT'S NEW</a>
+                        <a class="dropdown-item" href="https://portal.productboard.com/epicgames/1-unreal-engine-public-roadmap/tabs/20-unreal-engine-4-26-fall-2020">ROADMAP</a>
+                        <a class="dropdown-item" href="faq.html">FAQ</a>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    INDUSTRIES
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="game.html">GAMES</a>
+                        <a class="dropdown-item" href="architechture.html">ARCHITECHTURE</a>
+                        <a class="dropdown-item" href="automotive.html" style="line-height: 150%;">AUTOMOTIVE & <br>TRANSPORTATION</a>
+                        <a class="dropdown-item" href="broadcast.html" style="line-height: 150%;">BROADCAST & LIVE<br> EVENTS</a>
+                        <a class="dropdown-item" href="television.html">FILM & TELEVISION</a>
+                        <a class="dropdown-item" href="training.html" style="line-height: 150%;">TRAINING &<br> SIMULATION</a>
+                        <a class="dropdown-item" href="more_uses">MORE USES</a>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        LEARNING & SUPPORT
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="https://www.unrealengine.com/en-US/learn">GET STARTED</a>
+                        <a class="dropdown-item" href="https://docs.unrealengine.com/en-US/index.html">DOCUMENTATION</a>
+                        <a class="dropdown-item" href="https://www.unrealengine.com/en-US/onlinelearning-courses">ONLINE LEARNING</a>
+                        <a class="dropdown-item" href="https://www.unrealengine.com/en-US/events/webinar-series">WEBINARS</a>
+                        <a class="dropdown-item" href="https://www.unrealengine.com/en-US/education">EDUCATION</a>
+                        <a class="dropdown-item" href="https://www.unrealengine.com/en-US/support">SUPPORT</a>
+                        <a class="dropdown-item" href="https://issues.unrealengine.com/">ISSUES</a>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        COMMUNITY
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="https://forums.unrealengine.com/">FORUM</a>
+                        <a class="dropdown-item" href="https://answers.unrealengine.com/index.html">ANSWERHUB</a>
+                        <a class="dropdown-item" href="https://www.unrealengine.com/en-US/megagrants">MEGAGRANTS</a>
+                        <a class="dropdown-item" href="https://communities.unrealengine.com/">USER GROUPS</a>
+                        <a class="dropdown-item" href="https://www.unrealengine.com/en-US/feed/events">EVENTS</a>
+                        <a class="dropdown-item" href="https://www.unrealengine.com/en-US/programs/nvidia-edge">NVIDIA EDGE</a>
+                        <a class="dropdown-item" href="https://www.unrealengine.com/en-US/programs/intel-unreal">INTEL + UNREAL</a>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        MARKETPLACE
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="https://www.unrealengine.com/marketplace/en-US/store?lang=en-US">BROWSE</a>
+                        <a class="dropdown-item" href="https://publish.unrealengine.com/v2/welcome">SUBMIT CONTENT</a>
+                        <a class="dropdown-item" href="https://marketplacehelp.epicgames.com/s/?language=en_US" style="line-height: 150%;">MARKETPLACE<br> KNOWLEDGE BASE</a>
+                        <a class="dropdown-item" href="https://www.unrealengine.com/en-US/marketplace-guidelines" style="line-height: 150%;">MARKETPLACE<br> GUIDLINES</a>
+                        <a class="dropdown-item" href="https://forums.unrealengine.com/unreal-engine/marketplace?56-Marketplace=">MARKETPLACE FORUMS</a>
+                    </div>
+                </li>
+
+
+            </ul>
+            <form class="form-inline my-0 my-lg-0" id="right">
+                <button class="btn btn-secondary2 my-2 my-sm-0" style="margin-right: 25px;">
+                    <img src="./source/img/search.png" width="17px">
+                </button>
+                <button class="btn btn-secondary2 my-2 my-sm-0">
+                    <img src="./source/img/globe.png" width="17px">
+                </button>
+                <button class="btn btn-secondary my-2 my-sm-0">
+                    <img src="./source/img/user.png" width="15px">
+                    &nbsp SIGN IN</button>
+                <button class="btn my-2 my-sm-0" id="blue" href="https://www.unrealengine.com/en-US/download">DOWNLOAD</button>
+            </form>
+        </div>
+    </nav>
+
+
+
+    <div class="container-fluid">
+        <div class="row BgMedia">
+            <video autoplay muted loop id="BgVideo1">
+                <source src="source\video\Unreal+Engine_home_Games-b0deb0b7ebfa2197bd307b689d7e5b3dcbc24288.mp4"
+                    type="video/mp4">
+                Your browser does not support HTML5 video.
+            </video>
+            <div class="content">
+                <div class="content-text">
+                    <h1 style="font-size: 68px; text-shadow: 4px 4px 6px black;">A world of possibilities</h1>
+                    <h2 style="font-size: 40px; font-weight: lighter;">GAMES</h2><br>
+                    <p >Unreal Engine comes complete with everything you need to build and ship
+                        successful multi-platform games and location-based entertainment for any genre, with all tools
+                        and features included out of the box. With free access to source code, a robust C++ API, and
+                        Blueprint visual scripting at your fingertips, you’ve got the power to differentiate your title
+                        in any way you like.</p>
+                        <div class="btn-toolbar" role="toolbar">
+                            <div class="btn-group  mr-2" role="group">
+                                <button type="button" class="btn button-wrapper button1">GET STARTED NOW</button>
+                            </div>
+                            <div class="btn-group mr-2" role="group">
+                                <button style="text-decoration:none;" type="button" class="btn btn-link button2">SEE ALL FEATURES</button>
+                            </div>   
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid intro main">
+        <div class="container d-flex justify-content-center">
+            <div class="text-box1">
+                <h1 style="font-size: 45px;">Reach the next level</h1>
+                <p >Unreal Engine is a complete suite of creation tools for developing
+                    everything from independent hits to blockbuster franchises. As an established, industry-leading
+                    solution, Unreal Engine delivers uncompromised quality and proven performance you can trust.</p>
+            </div>
+        </div>
+        <hr>
+    </div>
+    <div class="container-fluid main">
+        <div class="row">
+            <div class="col-md-6 text-box2">
+                <h1>Made by creators, for creators</h1>
+                <p style="font-size: 18px;">At Epic, we use the engine ourselves to craft award-winning, chart-topping
+                    content—and what we learn we pass on to you, in the form of powerful tools and optimizations. Over
+                    the course of two decades, Unreal Engine has become the most trusted, reliable engine in the world.
+                </p>
+            </div>
+            <div class="col-md-6 image">
+                <img src="source\img\Unreal+Engine_spotlights_octopath-traveler-s-hd-2d-art-style-and-story-make-for-a-jrpg-dream-come-true_FEATURE_UESpotlight_OctopathTraveler-1920x960-e4bc4ed015e47b2a3fd01915a1f15f8b9fee7113.jpg"
+                    alt="">
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-lg-6 image">
+                <img src="source\img\Unreal+Engine_industry_games_star-wars-jedi-fallen-order-gallery-1_b3ecffd5-1920x1080-c08ff6aa91848e4068230a108ab39a43f955c70d.jpg"
+                    alt="">
+            </div>
+            <div class="col-lg-6 text-box2">
+                <h1>Any project, any size</h1>
+                <p style="font-size: 18px;">Break free from barriers with tools and workflows that put you in control.
+                    Whether your team is made up of 5 or 500 developers, Unreal Engine’s pre-built, modular systems,
+                    customizable plugins, and source control integration empower you to meet each project’s unique
+                    needs.</p>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-lg-6 text-box2">
+                <h1>A community committed to quality</h1>
+                <p style="font-size: 18px;">The highest caliber of professionals continually choose Unreal Engine to
+                    push the limits of visual experiences. Whether you’re an aspiring developer or seasoned veteran,
+                    you’re joining a community with a shared passion for creation and a commitment to achieving
+                    excellence.</p>
+            </div>
+            <div class="col-lg-6 image">
+                <img src="source\img\Unreal+Engine_industry_games_ffvii_remake_img1-1920x1080-40d0fd367efe90577286b4311c8ea36da559cf96.png"
+                    alt="">
+            </div>
+        </div>
+        <hr>
+    </div>
+    <div class="container-fluid main">
+        <div class="container d-flex justify-content-center">
+            <div class="text-box3">
+                <h1 style="font-size: 43px;">One unified content pipeline, all your platforms covered</h1><br>
+                <p style="font-size: 17px;">Connect your players with the same high-quality experience across all major
+                    platforms, from mobile to console and PC—just like we do with Fortnite. Extend your worlds using AR
+                    and VR, too!</p>
+                <br>
+                <p class = "pt-5" style="text-align: left;">
+                <img style="display: inline; padding-inline: 2%; width: 18%;" src="https://cdn2.unrealengine.com/Unreal+Engine%2Findustry%2Fgames%2FLogos%2FPS5-361x78-14603687d19c04f1b6cfdf2d38975d7170131956.png?resize=1&w=200">
+                <img style="display: inline; padding-inline: 2%; width: 10%;" src="https://cdn2.unrealengine.com/Unreal+Engine%2Findustry%2Fgames%2FLogos%2FSeriesX-174x175-e7b269277189f78fb7c84d4bc053f09b85880202.png?resize=1&w=200">
+                <img style="display: inline; padding-inline: 2%; width: 18%;" src="https://cdn2.unrealengine.com/Unreal+Engine%2Findustry%2Fgames%2FLogos%2FPS4-368x79-96c43c3545596021a0ef33b5758f5304cea318d7.png?resize=1&w=200">
+                <img style="display: inline; padding-inline: 2%; width: 19%;" src="https://cdn2.unrealengine.com/Unreal+Engine%2Findustry%2Fgames%2FLogos%2Fxbox-one-2400x478-c1c25fb4fb50e618424e27d5a925da1eea1f228f.png?resize=1&w=200">
+                <img style="display: inline; padding-inline: 2%; width: 10%;" src="https://cdn2.unrealengine.com/Unreal+Engine%2Findustry%2Fgames%2FLogos%2Fnintendo_switch-800x800-cd7bbd661036261ddcb7f4aa75689d5e263ca642.png?resize=1&w=200">
+                <img style="display: inline; padding-inline: 2%; width: 9%;" src="https://cdn2.unrealengine.com/Unreal+Engine%2Findustry%2Fgames%2FLogos%2Fsteam-512x512-c0600529c3e64bccf573dacc95eb71b57fb2c33c.png?resize=1&w=200">
+                <img style="display: inline; padding-inline: 2%; width: 9%;" src="https://cdn2.unrealengine.com/Unreal+Engine%2Findustry%2Fgames%2FLogos%2Fapple-1009x1198-c457070720c67cc6eb7a0df17579f4b899957dea.png?resize=1&w=200">
+                </p>
+                <p class = "pt-5" style="text-align: left;">
+                    <img style="display: inline; padding-inline: 2%; width: 9%;" src="https://cdn2.unrealengine.com/Unreal+Engine%2Findustry%2Fgames%2FLogos%2Fwindows-1094x1199-d1c8cb9951ac8637795a797efbc015c892d3788f.png?resize=1&w=200">
+                    <img style="display: inline; padding-inline: 2%; width: 11%;" src="https://cdn2.unrealengine.com/Unreal+Engine%2Findustry%2Fgames%2FLogos%2FLinux-512x512-f3b227733bcc984f97b0833835f5e4e9c8095c58.png?resize=1&w=200">
+                    <img style="display: inline; padding-inline: 2%; width: 8%;" src="https://cdn2.unrealengine.com/Unreal+Engine%2Findustry%2Fgames%2FLogos%2Fhtml5-2400x3388-25d39e30ad9b1efedf663f6f95ba0a17ea0b4e84.png?resize=1&w=200">
+                    <img style="display: inline; padding-inline: 2%; width: 10%;" src="https://cdn2.unrealengine.com/Unreal+Engine%2Findustry%2Fgames%2FLogos%2Fios-2400x1527-3cc36be542da4d697688e5c297d0868d4916f56b.png?resize=1&w=200">
+                    <img style="display: inline; padding-inline: 2%; width: 8%;" src="https://cdn2.unrealengine.com/Unreal+Engine%2Findustry%2Fgames%2FLogos%2Fandroid-logo-903x1052-1169e8e1cb720c659df6c09f340d3ffd4026cf30.png?resize=1&w=200">
+                    <img style="display: inline; padding-inline: 2%; width: 18%;" src="https://cdn2.unrealengine.com/Unreal+Engine%2Findustry%2Fgames%2FLogos%2FAppleArcade-298x61-b7abea43c28c346d0bc91c1d53e82a55b407fa5c.png?resize=1&w=200">
+                    <img style="display: inline; padding-inline: 2%; width: 10%;" src="https://cdn2.unrealengine.com/Unreal+Engine%2Findustry%2Fgames%2FLogos%2FStadia-180x148-9d2f945052ccf86bf76b65bd8cc2f4886715acd3.png?resize=1&w=200">
+                    <img style="display: inline; padding-inline: 2%; width: 18%;" src="https://cdn2.unrealengine.com/Unreal+Engine%2Findustry%2Fgames%2FLogos%2FOculus-500x114-704cbeaa9e723c99c243b133a2a725e0c7f617c8.png?resize=1&w=200">
+                </p>
+                <p class = "pt-5" style="text-align: left;">
+                    <img style="display: inline; padding-inline: 2%; width: 20%;" src="https://cdn2.unrealengine.com/Unreal+Engine%2Findustry%2Fgames%2FLogos%2FsteamVR-359x93-9861ea019b4234c14168070c976deeb2d1846a4a.png?resize=1&w=200">
+                    <img style="display: inline; padding-inline: 2%; width: 20%;" src="https://cdn2.unrealengine.com/Unreal+Engine%2Findustry%2Fgames%2FLogos%2FPSVR-1000x233-9ff510d22afdcf242d500c6e6f31d56f881a8d14.png?resize=1&w=200">
+                    <img style="display: inline; padding-inline: 2%; width: 20%;" src="https://cdn2.unrealengine.com/Unreal+Engine%2Findustry%2Fgames%2FLogos%2FgoogleVR_logo-3423x654-d4d1fef8926c5b5a69bcce26a9a267b830499d1a.png?resize=1&w=200">
+                    <img style="display: inline; padding-inline: 2%; width: 18%;" src="https://cdn2.unrealengine.com/Unreal+Engine%2Findustry%2Fgames%2FLogos%2FMSHololens-275x79-f83cdd6db27ea13e875bab4388a30b85afe4e19b.png?resize=1&w=200">
+                    <img style="display: inline; padding-inline: 2%; width: 18%;" src="https://cdn2.unrealengine.com/Unreal+Engine%2Findustry%2Fgames%2FLogos%2FMagic_Leap_logo-528x189-0f65e39cd159ffd16898f304ffcbe7846da05929.png?resize=1&w=200">
+                </p>
+            </div>
+        </div>
+        <hr>
+    </div>
+    <div class="container-fluid main">
+        <div class="row">
+            <div class="col-lg-6 text-box2">
+                <h1>Ready for next-gen?</h1>
+                <p style="font-size: 18px;">Unreal Engine is next-gen ready. Visit our Next-Gen Hub to hear from Epic Games 
+                    and industry experts around the world about the tools and opportunities that are enabling teams of all 
+                    sizes to create truly next-gen games.</p>
+                <button type="button" class="btn button-wrapper button1">NEXT-GEN HUB</button>
+            </div>
+            <div class="col-lg-6 image">
+                <img src="https://cdn2.unrealengine.com/unreal-engine-5-14-1920x1080-450611473.png"
+                        alt="">
+            </div>
+        </div>
+        <hr>
+    </div>
+    <div class="container-fluid main pb-5">
+        <h1 style="text-align: center;">Case studies</h1>
+        <div class="container" style="background-color: #121212">
+            <div class="row">
+                <div class="col-xs-12 col-md-6">
+                    <video autoplay muted loop id="BgVideo2">
+                        <source src="source\video\Unreal+Engine_industry_automotive-transportation_audi-digital-showroom-3d71667656aade5ceae7b609513df64d948168b1.mp4" type="video/mp4" >
+                    </video>
+                </div>
+                <div class="col-xs-12 col-md-6 pt-3">
+                    <h3>Giant Squid creates an emotional connection with players</h3>
+                    <p style="font-size: 14px;"class="pt-3">Following up on its hit title ABZÛ, developer Giant Squid used Unreal
+                            Engine to connect players to the beautifully-crafted characters and world of The Pathless. From
+                            rapidly prototyping all-new mechanics with Blueprints to leveraging source code access to make
+                            those prototypes functional, performant, and fast, Unreal Engine helped the studio focus on
+                            developing their game.</p>
+                </div>
+            </div>
+                <div class="row">
+                    <div class="col-xs-12 col-md-6 mb-5 pt-5">
+                        <img style="width: 40%;" src="https://cdn2.unrealengine.com/Unreal+Engine%2Findustry%2Fgames%2FThePathlessLogo-2650x671-ee9d0ecf6f0d7428d1a5b960538f878c7946088b.png?resize=1&w=500">
+                        <br><br>
+                        <button type="button" class="btn info">FIND OUT MORE</button>
+                        <button class="btn v1">WATCH THE VIDEO <i class="far fa-play-circle" style='color:gray'></i></button>
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <img style="margin-top: 2%;"src="source\img\Unreal+Engine_industry_games_FEATURE_UESpotlight_ThePathless-1920x960-2beb28dcf10d9e715c0dc8a375942bb403c2a2f3.jpg"
+                        alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid main">
+        <div class="row pt-5 no-gutters">
+            <div class="col-lg-4">
+                <div class="parent">
+                    <div class="child image-box-Bg-1 image-box">
+                        <h4 class="b1">Square Enix's Octopath Traveler hailed as "a JRPG dream come true"</h4>
+                        <br>
+                        <button type="button" class="btn info">FIND OUT MORE</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="parent">
+                    <div class="child image-box-Bg-2 image-box">
+                        <h4 class="b1">It’s all about the details for simulation developer Dovetail</h4>
+                        <br>
+                        <button type="button" class="btn info">FIND OUT MORE</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="parent">
+                    <div class="child image-box-Bg-2 image-box">
+                        <h4 class="b1">Cornfox & Bros. moves mobile gaming forward with Oceanhorn 2</h4>
+                        <br>
+                        <button type="button" class="btn info">FIND OUT MORE</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-center" style="padding-top: 5%; padding-bottom: 5%;">
+            <button type="button" class="btn info1">SEE MORE CASE STUDIES</button>
+        </div>
+    </div>
+    <div class="container-fluid main">
+        <h1 style="text-align: center;">Key features</h1>
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-5 text-box5">
+                <h3>Industry-leading graphics</h3>
+                <p>Achieve awe-inspiring visual content out of the box with Unreal Engine’s physically based rasterized
+                    and ray-traced rendering. Take advantage of advanced dynamic shadow options, screenspace and true 3D
+                    reflections, versatile lighting tools, and a flexible node-based material editor to create the most
+                    realistic real-time content imaginable.</p>
+            </div>
+            <div class="col-md-5 text-box5">
+                <h3>Robust multiplayer framework</h3>
+                <p>For over two decades, Unreal Engine’s multiplayer framework has been battle-tested across many
+                    platforms and game types to produce some of the industry’s most engaging multiplayer experiences.
+                    Unreal Engine ships with a scalable and proven client/server architecture to bring instant viability
+                    to any project’s multiplayer component.</p>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-5 text-box5">
+                <h3>Full access to C++ source code</h3>
+                <p>With free access to all C++ source code, you can study, customize, extend, and debug the entirety of
+                    Unreal Engine, and ship your project without obstruction. Our source code repository on GitHub is
+                    continually updated as we develop features in our own mainline, so you don’t even have to wait for
+                    the next product release to get your hands on the very latest code.</p>
+            </div>
+            <div class="col-md-5 text-box5">
+                <h3>Blueprints: create without coding</h3>
+                <p>With artist-friendly Blueprint visual scripting, you can rapidly prototype and ship interactive
+                    content without touching a line of code. Use Blueprints to build object behaviors and interactions,
+                    modify user interfaces, adjust input controls, and so much more. You can even visualize gameplay
+                    flow and inspect properties while testing your work using the powerful built-in debugger.</p>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-center" style="padding-top: 5%; padding-bottom: 5%;">
+            <button type="button" class="btn info1">SEE ALL FEATURES</button>
+        </div>
+    </div>
+    <div class="container-fluid main pt-5">
+        <h1 class="mb-3" style="text-align: center; font-size: 45px;">News, events & articles</h1>
+        <div class="container pt-5"> 
+            <div class="row d-flex justify-content-center">
+                <div class="col-lg-4">
+                    <div class="card mb-3" style="background-color:#262626; max-width: 540px;">
+                        <img class="card-img-top" src="source\img\Unreal+Engine_blog_a-first-look-at-unreal-engine-5_UE5_Announcement_Feed_Large-1920x1080-8c8ab609059186399d92ca5dc8a748e62880e0e7.jpg"
+                        alt="">
+                        <div class="card-body" style="height: 300px;">
+                            <div class="btn-toolbar" role="toolbar">
+                                <div class="btn-group  mr-2" role="group">
+                                    <button type="button" class="button3">NEWS</button>
+                                </div>
+                                <div class="btn-group mr-2" role="group">
+                                    <button type="button" class="btn button4">Games</button>
+                                </div>   
+                            </div>
+                            <h5>A first look at Unreal Engine 5</h5>
+                            <p class="card-text p1">Get a first glimpse of Unreal Engine 5 and the new core technologies that will free creators
+                                to reach the highest level of real-time rendering detail in the next generation of games and
+                                beyond.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card mb-3" style="background-color:#262626;max-width: 540px;">
+                        <img class="card-img-top" src="source\img\Unreal+Engine_blog_a-first-look-at-unreal-engine-5_UE5_Announcement_Feed_Large-1920x1080-8c8ab609059186399d92ca5dc8a748e62880e0e7.jpg">
+                        <div class="card-body" style="height: 300px;">
+                            <div class="btn-toolbar" role="toolbar">
+                                <div class="btn-group  mr-2" role="group">
+                                    <button type="button" class="button3">NEWS</button>
+                                </div>
+                                <div class="btn-group mr-2" role="group">
+                                    <button type="button" class="btn button4">Games</button>
+                                </div>   
+                            </div>
+                            <h5>Webinar: Animation in Unreal Engine—Adding Life to Your Story</h5>
+                            <p class="card-text p1">An inspiring look inside Ember Lab's next-gen creation: Kena: Bridge of Spirits.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card mb-3" style="background-color:#262626;max-width: 540px;">
+                        <img class="card-img-top" src="source\img\uol-october-share-img-1200x630-279996682.jpg">
+                        <div class="card-body" style="height: 300px;">
+                            <div class="btn-toolbar" role="toolbar">
+                                <div class="btn-group  mr-2" role="group">
+                                    <button type="button" class="button5">INTERVIEW</button>
+                                </div>
+                                <div class="btn-group mr-2" role="group">
+                                    <button type="button" class="btn button4">Games</button>
+                                </div>   
+                            </div>
+                            <h5>Free Automotive Bridge Environment now available on the Unreal Marketplace</h5>
+                            <p class="card-text p1">Looking to gain some new skills with Unreal Engine? Check out the new course on animation
+                                fundamentals, or kick it up a notch and create your own scatter tool, get into Pixel
+                                Streaming, or design your own in-game sound. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row d-flex justify-content-center" style="padding-top: 5%; padding-bottom: 5%;">
+        <button type="button" class="btn info">SEE MORE </button>
+    </div>
+    <br>
+     <!-- Footer -->
+     <footer class="page-footer font-small blue pt-4" id="footer">
+
+        <!-- Footer Links -->
+        <div class="container-fluid  text-md-left">
+
+            <!-- Grid row -->
+            <div class="row">
+
+                <!-- Grid column -->
+                <div class="col-md-7 mt-md-0 mt-3  " id="footer">
+
+                    <!-- Content -->
+                    <div class="row ml-5">
+                        <i class="fab fa-twitter ml-4 mr-3 mt-2" style="font-size: 1.6em;"></i>
+                        <i class="fab fa-facebook-square mr-3 mt-2" style="font-size: 1.6em;"></i>
+                        <i class="fab fa-twitch mr-3 mt-2" style="font-size: 1.6em;"></i>
+                        <i class="fab fa-instagram mr-3 mt-2 " style="font-size: 1.6em;"></i>
+                        <i class="fab fa-youtube mr-3 mt-2 " style="font-size: 1.6em;"></i>
+                        <i class="fas fa-rss mr-3 mt-2 " style="font-size: 1.6em;"></i>
+                    </div>
+                    <div class="link">
+                        <div class="row ml-5">
+
+                            <div class="col-2 mb-3 mt-5 ml-2 ">
+
+                                <!-- Links -->
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href="#!">Features</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!">Logo & Branding</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!">Roadmap</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!">Education</a>
+                                    </li>
+                                </ul>
+
+                            </div>
+                            <div class="col-2 mb-3 mt-5 ">
+
+                                <!-- Links -->
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href="#!">Academic Partner</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!">More Resources</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!">Awards</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!">Custom License Terms</a>
+                                    </li>
+                                </ul>
+
+                            </div>
+                            <div class="col-2 mb-3 mt-5">
+
+                                <!-- Links -->
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href="#!">Online Service</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!">Training Partners</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!">Community Rules</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!">Releasing your Game</a>
+                                    </li>
+                                </ul>
+
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+                <!-- Grid column -->
+
+                <hr class="clearfix w-100 d-md-none pb-3">
+
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-5 mb-md-0 mb-3  " style="background-color: #2a2a2a; text-align: right;">
+
+                    <!-- Links -->
+                    <i class="far fa-caret-square-up mr-5" style="font-size: 2.5em;"></i>
+
+                    <br>
+                        <button style=" right:0 ;">Sign up for Unreal Engine news!</button>
+                   
+
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row -->
+
+        </div>
+        <!-- Footer Links -->
+
+        <hr style="border-top: 1px solid rgb(65, 62, 62);" class="ml-5 mr-5">
+        <!-- Copyright -->
+        <div class="row" style="background-color: #2a2a2a;">
+            <div class="col-md-12 " style="background-color: #2a2a2a;">
+                <p style="margin-left: 80px; color: #ccc;">© 2004-2020, Epic Games, Inc. All rights reserved. Unreal and its logo are
+                    Epic’s trademarks or registered trademarks in the US and elsewhere.</p>
+            </div>
+            <div class="col-md-6" style="background-color: #2a2a2a;">
+                <ul class="list-unstyled" style="white-space:nowrap; ">
+                    <li style="display:inline; ">
+                        <a href="#!" style="margin-left: 80px;">Online Service</a>
+                    </li>
+                    <li style="display:inline; ">
+                        <a href="#!"  style="margin-left: 15px;">Training Partners</a>
+                    </li>
+                </ul>
+
+
+            </div>
+            <div class="col-md-6 mb-5" style="background-color: #2a2a2a;">
+                <a href="https://www.w3schools.com" >
+                <img  class="mr-5"alt="W3Schools" src="\source\img\apple-touch-icon.png"  style="float: right; width:2em; height: auto;"></a>
+                <a href="https://www.w3schools.com">
+                    <img class="mr-3" alt="W3Schools" src="\source\img\epic-games-2.svg"  style="float: right; width:2em;"></a>
+            </div>
+
+        </div>
+
+    </footer>
+    <!-- Footer -->
+</body>
+
+</html>
