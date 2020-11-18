@@ -25,7 +25,7 @@ font-family: 'ExtraLight';
     
 @font-face {
     font-family: 'Open Sans';
-    src: url('OpenSans-Regular.ttf');
+    src: url('source/font/OpenSans-Regular.ttf');
 }
 
 body{

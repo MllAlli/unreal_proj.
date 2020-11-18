@@ -1,0 +1,1846 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+        Features - Unreal Engine
+    </title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+        integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+        crossorigin="anonymous"></script>
+    <link href="feature.css" rel="stylesheet">
+    <link rel="shortcut icon" href="source\img\apple-touch-icon.png?v=3">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <script src="feature.js"></script>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg" width="100%" style="background-color: #2a2a2a;"> 
+        <img id="epic" src="\source\img\epic.png" href="https://www.epicgames.com/store/en-US/">
+        <img id="unr" src="\source\img\UNREAL.png" href="index.html">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse navbar-expand-lg" id="navbar">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="news.html">NEWS</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        ABOUT
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="feature.html">FEATURES</a>
+                        <a class="dropdown-item" href="what's new.html">WHAT'S NEW</a>
+                        <a class="dropdown-item" href="https://portal.productboard.com/epicgames/1-unreal-engine-public-roadmap/tabs/20-unreal-engine-4-26-fall-2020">ROADMAP</a>
+                        <a class="dropdown-item" href="faq.html">FAQ</a>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    INDUSTRIES
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="game.html">GAMES</a>
+                        <a class="dropdown-item" href="architechture.html">ARCHITECHTURE</a>
+                        <a class="dropdown-item" href="automotive.html" style="line-height: 150%;">AUTOMOTIVE & <br>TRANSPORTATION</a>
+                        <a class="dropdown-item" href="broadcast.html" style="line-height: 150%;">BROADCAST & LIVE<br> EVENTS</a>
+                        <a class="dropdown-item" href="television.html">FILM & TELEVISION</a>
+                        <a class="dropdown-item" href="training.html" style="line-height: 150%;">TRAINING &<br> SIMULATION</a>
+                        <a class="dropdown-item" href="more_uses">MORE USES</a>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        LEARNING & SUPPORT
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="https://www.unrealengine.com/en-US/learn">GET STARTED</a>
+                        <a class="dropdown-item" href="https://docs.unrealengine.com/en-US/index.html">DOCUMENTATION</a>
+                        <a class="dropdown-item" href="https://www.unrealengine.com/en-US/onlinelearning-courses">ONLINE LEARNING</a>
+                        <a class="dropdown-item" href="https://www.unrealengine.com/en-US/events/webinar-series">WEBINARS</a>
+                        <a class="dropdown-item" href="https://www.unrealengine.com/en-US/education">EDUCATION</a>
+                        <a class="dropdown-item" href="https://www.unrealengine.com/en-US/support">SUPPORT</a>
+                        <a class="dropdown-item" href="https://issues.unrealengine.com/">ISSUES</a>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        COMMUNITY
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="https://forums.unrealengine.com/">FORUM</a>
+                        <a class="dropdown-item" href="https://answers.unrealengine.com/index.html">ANSWERHUB</a>
+                        <a class="dropdown-item" href="https://www.unrealengine.com/en-US/megagrants">MEGAGRANTS</a>
+                        <a class="dropdown-item" href="https://communities.unrealengine.com/">USER GROUPS</a>
+                        <a class="dropdown-item" href="https://www.unrealengine.com/en-US/feed/events">EVENTS</a>
+                        <a class="dropdown-item" href="https://www.unrealengine.com/en-US/programs/nvidia-edge">NVIDIA EDGE</a>
+                        <a class="dropdown-item" href="https://www.unrealengine.com/en-US/programs/intel-unreal">INTEL + UNREAL</a>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        MARKETPLACE
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="https://www.unrealengine.com/marketplace/en-US/store?lang=en-US">BROWSE</a>
+                        <a class="dropdown-item" href="https://publish.unrealengine.com/v2/welcome">SUBMIT CONTENT</a>
+                        <a class="dropdown-item" href="https://marketplacehelp.epicgames.com/s/?language=en_US" style="line-height: 150%;">MARKETPLACE<br> KNOWLEDGE BASE</a>
+                        <a class="dropdown-item" href="https://www.unrealengine.com/en-US/marketplace-guidelines" style="line-height: 150%;">MARKETPLACE<br> GUIDLINES</a>
+                        <a class="dropdown-item" href="https://forums.unrealengine.com/unreal-engine/marketplace?56-Marketplace=">MARKETPLACE FORUMS</a>
+                    </div>
+                </li>
+
+
+            </ul>
+            <form class="form-inline my-0 my-lg-0" id="right">
+                <button class="btn btn-secondary2 my-2 my-sm-0" style="margin-right: 25px;">
+                    <img src="./source/img/search.png" width="17px">
+                </button>
+                <button class="btn btn-secondary2 my-2 my-sm-0">
+                    <img src="./source/img/globe.png" width="17px">
+                </button>
+                <button class="btn btn-secondary my-2 my-sm-0">
+                    <img src="./source/img/user.png" width="15px">
+                    &nbsp SIGN IN</button>
+                <button class="btn my-2 my-sm-0" id="blue" href="https://www.unrealengine.com/en-US/download">DOWNLOAD</button>
+            </form>
+        </div>
+    </nav>
+
+        <div class="container-fluid">
+            <div class="row1">
+                <div class="row d-flex justify-content-center">
+                    <video autoplay muted loop id="myVideo">
+                        <source
+                            src="source\video\Unreal+Engine_Features_2019_ENGN_GDC_FeaturesSizzle_vFINAL-3.25.19--WebM-48c1dd198a46c222599a0784fdef9234f21b1798.webm"
+                            type="video/webm">
+                        Your browser does not support HTML5 video.
+                    </video>
+
+
+                    <div class="logo">
+                        <p>Features</p>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-infor">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-md-12">
+                        <p id="para1">Unreal Engine is a complete suite of development tools for anyone working with
+                            real-time
+                            technology. From design visualizations and cinematic experiences to high-quality games
+                            across
+                            PC,
+                            console, mobile, VR, and AR, Unreal Engine gives you everything you need to start, ship,
+                            grow,
+                            and
+                            stand out from the crowd.</p>
+                    </div>
+                </div>
+                <div class="Pip">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-md-2"></div>
+                        <div class="col-md-8 text-center" id="tele1">
+                            <div class="headline-content" role="presentation">
+                                <h6>
+                                    <span class="text-white" onclick="hide0()" id="Pipe">PIPELINE INTEGRATION
+                                        <i class="fa fa-chevron-up" id="chevoron0"></i></h6></span>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-center" id="PipeInfor">
+
+                        <div class="col-md-12 text-center" id="tele1">
+                            <div class="row">
+                                <div class="col-md-2"></div>
+                                <div class="col-md-5">
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="card ">
+                                                <div class="card-body">
+                                                    <p class="card-title">FBX, USD, and Alembic support
+                                                    </p>
+                                                    <p class="text-left">Connect to media production pipelines, with
+                                                        support for industry standards like FBX, USD, and Alembic.
+                                                        First-class
+                                                        USD support enables users to collaborate better with team
+                                                        members
+                                                        and
+                                                        work in parallel. Unreal Engine can read a USD file from
+                                                        anywhere on
+                                                        disk without a time-consuming full import, and write back
+                                                        changes to
+                                                        it
+                                                        as overrides; reloading the USD payload instantly updates
+                                                        changes
+                                                        made
+                                                        by other users upstream. </p>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="card ">
+                                                <div class="card-body">
+
+                                                    <p class="card-title">Python scripting
+                                                    </p>
+                                                    <p class="text-left">Integrate Unreal Engine into your pipeline and
+                                                        automate
+                                                        your workflows with full support for the industry standard
+                                                        Python
+                                                        scripting in the Unreal Editor. You can construct asset
+                                                        management
+                                                        pipelines, automate data preparation workflows, procedurally lay
+                                                        out
+                                                        content in a level, and create custom UIs to control the Unreal
+                                                        Editor.
+                                                    </p>
+
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="row mt-3" style="margin-left:0.2%; margin-right: 0.2%;">
+                                        <div class="card mb-2">
+                                            <div class="row">
+                                                <div class="col-6">
+                                                    <img src="source\img\Unreal+Engine_features_datasmith-seamless-data-conversion_Datasmith-802x802-e0121095b014425af2199ad7dd6ff2cd0881acac.png"
+                                                        class="card-img">
+                                                </div>
+                                                <div class="col-6 ">
+                                                    <div class="card-body">
+                                                        <p class="card-title">Datasmith: seamless data conversion</p>
+                                                        <p class="text-left">Convert entire scenes—including animation
+                                                            and
+                                                            metadata—from 3ds Max, Revit, SketchUp Pro, Cinema 4D,
+                                                            Rhino,
+                                                            SolidWorks, Catia, and a whole host of other DCC, CAD, and
+                                                            BIM
+                                                            formats at high fidelity with Datasmith. Nondestructive
+                                                            re-importing
+                                                            means you can continue to iterate in your source package
+                                                            without
+                                                            losing downstream changes. Access to metadata opens doors to
+                                                            automated data preparation through Python scripting or
+                                                            Visual
+                                                            Dataprep.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-md-3 mb-2">
+                                    <div class="card">
+                                        <img class="card-img-top"
+                                            src="source\img\Unreal+Engine_features_visual-dataprep_4.24_Dataprep_600x600-600x600-f8cb8dd56823c4b08de2c47ae8849e1c5ea97cce.jpg"
+                                            alt="Card image cap">
+                                        <div class="card-body">
+                                            <p class="card-title">Visual Dataprep</p>
+                                            <p class="text-left">Easily automate data preparation workflows—even if
+                                                you’re
+                                                not
+                                                a
+                                                programmer—with a simplified visual tool that lets you create a “recipe”
+                                                of
+                                                filters
+                                                and operators that you can save and reuse on other scenes or projects.
+                                                Make
+                                                LODs,
+                                                set up Lightmap UVs, substitute materials, and delete or merge objects
+                                                based
+                                                on
+                                                factors such as class, name, metadata tags, or size. </p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-md-2"></div>
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="col-md-2"></div>
+                            <div class="col-md-5">
+                                <div class="row mt-2 mb-5" style="margin-left:1.5%; margin-right: 0.2%;">
+                                    <div class="card">
+                                        <div class="row ">
+                                            <div class="col-6">
+                                                <img src="source\img\Unreal+Engine_features_lidar-point-cloud-support_LiDAR-600x600-ce169045ac93374f6fd7607be5119872ea9dbf4f.jpg"
+                                                    class="card-img">
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="card-body">
+                                                    <p class="card-title">LiDAR point cloud support</p>
+                                                    <p class="text-left">Aggregate and use huge datasets captured from
+                                                        the
+                                                        real
+                                                        world, with the ability to import, visualize, edit, and interact
+                                                        with
+                                                        point clouds acquired from laser scanning devices directly
+                                                        within
+                                                        Unreal
+                                                        Engine. Point clouds can be used to visualize locations and to
+                                                        give
+                                                        accurate context to newly designed elements.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3" style="margin-bottom:3.5%; ">
+                                <div class="card text-left mt-2" style="margin-right: 6%;">
+                                    <div class="card-body">
+                                        <p class="card-title" style="font-size:130%;">Shotgun integration
+                                        </p>
+                                        <p class="text-left">Shotgun integration in Unreal Engine offers a streamlined
+                                            connection with both upstream 3D asset data created by artists in other
+                                            applications
+                                            like Maya, and downstream image data that needs to be reviewed by
+                                            supervisors
+                                            and
+                                            directors in Shotgun.</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2"></div>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="row d-flex justify-content-center">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-8 text-center" id="tele2">
+                        <div class="headline-content" role="presentation">
+                            <h6>
+                                <span class="text-white" onclick="hide1()">WORLD BUILDING
+                                    <i class="fa fa-chevron-up" id="chevoron1"></i></h6></span>
+
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                    </div>
+                </div>
+                <div class="row justify-content-center" id="WorldInfor">
+
+                    <div class="col-md-12 text-center" id="tele1">
+                        <div class="row">
+                            <div class="col-md-2"></div>
+                            <div class="col-md-8">
+                                <div class="row mb-4">
+                                    <div class="col-md-8">
+                                        <div class="row">
+                                            <div class="col">
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <p class="card-title">The Unreal Editor
+                                                        </p>
+                                                        <p class="text-left">Unreal Engine includes the Unreal Editor,
+                                                            an
+                                                            integrated
+                                                            development environment available on Linux, MacOS, and
+                                                            Windows
+                                                            for
+                                                            content authoring. With support for multi-user editing,
+                                                            artists,
+                                                            designers, and developers can simultaneously make changes to
+                                                            the
+                                                            same
+                                                            Unreal Engine project in a safe and reliable way, while the
+                                                            ability to
+                                                            run the full Unreal Editor in VR mode means you can build in
+                                                            a
+                                                            WYSIWYG
+                                                            environment.</p>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col">
+                                                <div class="card">
+                                                    <div class="card-body">
+
+                                                        <p class="card-title">Scalable foliage
+                                                        </p>
+                                                        <p class="text-left">Automatically cover your huge outdoor
+                                                            environments with
+                                                            different types of grass, flowers, small rocks, or your mesh
+                                                            of
+                                                            choice
+                                                            using the Grass Tool, and create vast forests filled with
+                                                            many
+                                                            different
+                                                            kinds of trees and brushes with the Procedural Foliage Tool
+                                                            that
+                                                            simulates how a forest grows over the years.
+                                                        </p>
+
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="row mt-3">
+                                            <div class="col">
+
+                                                <div class="card ">
+                                                    <div class="card-body">
+                                                        <p class="card-title">Asset optimization
+                                                        </p>
+                                                        <p class="text-left">Preparing and optimizing a complex model
+                                                            for better
+                                                            real-time performance can be a tedious, time-consuming
+                                                            experience, often
+                                                            involving multiple round-trips. Unreal Engine offers tools
+                                                            like
+                                                            automatic LOD (level of detail) generation; jacketing and
+                                                            defeaturing,
+                                                            which eliminate hidden surfaces and unnecessary details; and
+                                                            the Proxy
+                                                            Geometry tool, which combines multiple meshes and their
+                                                            materials into a
+                                                            single mesh and material.</p>
+
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="col">
+
+                                                <div class="card ">
+                                                    <div class="card-body">
+
+                                                        <p class="card-title">Mesh editing tools
+                                                        </p>
+                                                        <p class="text-left">Unreal Engine includes basic mesh editing
+                                                            tools to
+                                                            correct small problems in geometry without having to fix
+                                                            them in the
+                                                            source package and re-import. Within the Static Mesh Editor,
+                                                            you can
+                                                            select faces in a variety of ways—by picking, by material,
+                                                            by element,
+                                                            or with grow/shrink—and create, delete, or flip the selected
+                                                            faces, or
+                                                            detach them to a separate new static mesh. You can also
+                                                            unify normals,
+                                                            assign a new material, and perform basic UV projections.
+                                                        </p>
+
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-md-4 ">
+                                        <div class="card">
+                                            <img class="card-img-top"
+                                                src="source\img\Unreal+Engine_features_landscape-and-terrain-tools_Landscape-600x600-542210a48f2ad08ef5b434e4021340c21f9f68f5.png"
+                                                alt="Card image cap">
+                                            <div class="card-body">
+                                                <p class="card-title">Landscape and terrain tools</p>
+                                                <p class="text-left">Create massive-scale open-world environments and
+                                                    terrains with mountains, valleys, and even caves, with the Landscape
+                                                    system. Add multiple height map and paint layers, and sculpt and
+                                                    paint
+                                                    them independently of each other. Users can also nondestructively
+                                                    edit
+                                                    their landscape with a layer reserved for splines, and create unique
+                                                    custom brushes in Blueprint, and use them to adapt landscapes based
+                                                    on
+                                                    other elements.</p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-md-2"></div>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2"></div>
+                        <div class="col-md-5">
+                        </div>
+                        <div class="col-md-2"></div>
+                    </div>
+
+
+                </div>
+
+                <div class="row d-flex justify-content-center">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-8 text-center" id="tele3">
+                        <div class="headline-content" role="presentation">
+                            <h6>
+                                <span class="text-white" onclick="hide2()">ANIMATION
+                                    <i class="fa fa-chevron-up" id="chevron2"></i></h6></span>
+
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                    </div>
+                </div>
+                <div class="row justify-content-center" id="AnimaInfor">
+                    <div class="col-md-12 text-center" id="tele2">
+                        <div class="row">
+                            <div class="col-md-2"></div>
+                            <div class="col-md-8">
+                                <div class="row mb-4">
+                                    <div class="col-md-8">
+                                        <div class="row">
+                                            <div class="col">
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <p class="card-title">Character animation tools
+                                                        </p>
+                                                        <p class="text-left">Completely customize characters and craft
+                                                            believable movement with Unreal Engine’s mesh and animation
+                                                            editing tools, which include powerful features such as state
+                                                            machines, blend spaces, forward and inverse kinematics,
+                                                            physics-driven animation for ragdoll effects, and the
+                                                            ability to
+                                                            preview animation on the fly. A scriptable rigging system
+                                                            offers
+                                                            ways to achieve procedural rigging, animating in engine, or
+                                                            setting up custom retargeting or full-body IK solutions.</p>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col">
+                                                <div class="card">
+                                                    <div class="card-body">
+
+                                                        <p class="card-title">Animation Blueprints
+                                                        </p>
+                                                        <p class="text-left">Create and control complex animation
+                                                            behaviors
+                                                            with Animation Blueprints. An Animation Blueprint is a
+                                                            specialized Blueprint that controls the animation of a
+                                                            Skeletal
+                                                            Mesh. Graphs are edited inside of the Animation Blueprint
+                                                            Editor, where you can perform animation blending, directly
+                                                            control the bones of a Skeleton, or setup logic that will
+                                                            ultimately define the final animation pose for a Skeletal
+                                                            Mesh
+                                                            to use per frame.
+                                                        </p>
+
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="row mt-3">
+                                            <div class="col">
+
+                                                <div class="card ">
+                                                    <div class="card-body">
+                                                        <p class="card-title">Live Link data streaming
+                                                        </p>
+                                                        <p class="text-left">The Live Link plugin enables you connect a
+                                                            stream of real-time data from an external source to Unreal
+                                                            Engine. You can stream character animation, cameras, lights,
+                                                            and
+                                                            other data from DCC tools such as Maya or Motionbuilder, or
+                                                            from
+                                                            motion capture or performance capture systems, including
+                                                            Apple’s
+                                                            ARKit face tracking, so you can capture facial performances
+                                                            from
+                                                            an iPhone. Live Link is designed to be extensible through
+                                                            Unreal
+                                                            Plugins, enabling third parties to add support for new
+                                                            sources.
+                                                        </p>
+
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="col">
+
+                                                <div class="card ">
+                                                    <div class="card-body">
+
+                                                        <p class="card-title">Take Recorder
+                                                        </p>
+                                                        <p class="text-left">The Take Recorder enables you to record
+                                                            animations from motion capture linked to characters in the
+                                                            scene, and from Live Link data, for future playback—so you
+                                                            can
+                                                            quickly iterate on performance recordings, and easily review
+                                                            previous takes. By recording Actors into sub-sequences and
+                                                            organizing them by take metadata, you can more easily manage
+                                                            complex productions.
+                                                        </p>
+
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-md-4 ">
+                                        <div class="card">
+                                            <img class="card-img-top"
+                                                src="source\img\Unreal+Engine_features_sequencer-state-of-the-art-cinematics_Sequencer_Crop_01-600x600-a43570b816d278dbf2995acb1efcd6eb8b885726.png"
+                                                alt="Card image cap">
+                                            <div class="card-body">
+                                                <p class="card-title">Sequencer: state-of-the-art cinematics</p>
+                                                <p class="text-left">Designed by film and TV professionals, Sequencer
+                                                    unlocks your creative potential with a fully nonlinear, real-time
+                                                    cinematic editing and animation tool built for collaboration. Define
+                                                    and
+                                                    modify lighting, camera blocking, characters, and set dressing on a
+                                                    per-shot­ basis. Teams of artists can work on entire sequences
+                                                    simultaneously in a way never before possible. </p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-md-2"></div>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2"></div>
+                        <div class="col-md-5">
+                        </div>
+                        <div class="col-md-2"></div>
+                    </div>
+
+
+                </div>
+
+                <div class="row d-flex justify-content-center">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-8 text-center" id="tele4">
+                        <div class="headline-content" role="presentation">
+                            <h6>
+                                <span class="text-white" onclick="hide3()">RENDERING, LIGHTING,AND MATERIALS
+                                    <i class="fa fa-chevron-up" id="chevron3"></i></h6></span>
+
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                    </div>
+                </div>
+                <div class="row justify-content-center" id="RenInfor">
+                    <div class="col-md-12 text-center" id="tele2">
+                        <div class="row">
+                            <div class="col-md-2"></div>
+                            <div class="col-md-8">
+                                <div class="row mb-4">
+                                    <div class="col-md-8">
+                                        <div class="row">
+                                            <div class="col">
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <p class="card-title">Forward rendering
+                                                        </p>
+                                                        <p class="text-left">The Forward Shading Renderer provides a
+                                                            faster
+                                                            baseline, with faster rendering passes, which may lead to
+                                                            better
+                                                            performance on VR platforms and certain consoles such as the
+                                                            Nintendo Switch. Support for Multisample Anti-Aliasing is
+                                                            also
+                                                            helpful for VR applications where constant sub-pixel
+                                                            movement
+                                                            introduced by head tracking generates unwanted blurriness
+                                                            with
+                                                            Temporal Anti Aliasing.</p>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col">
+                                                <div class="card">
+                                                    <div class="card-body">
+
+                                                        <p class="card-title">Flexible material editor
+                                                        </p>
+                                                        <p class="text-left">Enjoy unprecedented control over the look
+                                                            and
+                                                            feel of characters and objects with UE4's physically-based
+                                                            Material Editor. Quickly create a wide range of surfaces
+                                                            that
+                                                            hold up visually under close examination using the intuitive
+                                                            node-based workflow. Layer materials and fine-tune values at
+                                                            the
+                                                            pixel level to achieve the appearance you desire.
+                                                        </p>
+
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="row mt-3">
+                                            <div class="col">
+                                                <div class="card mb-2">
+                                                    <div class="row">
+                                                        <div class="col-6">
+                                                            <img src="source\img\Unreal+Engine_features_photoreal-rasterizing-and-ray-tracing-in-real-time_Rendering-600x600-2c6a285bda7fa6e7ab99270673b6262ede8557ac.jpg"
+                                                                class="card-img">
+                                                        </div>
+                                                        <div class="col-6 ">
+                                                            <div class="card-body">
+                                                                <p class="card-title">Photoreal rasterizing and ray
+                                                                    tracing
+                                                                    in real time
+                                                                </p>
+                                                                <p class="text-left">Achieve Hollywood-quality visuals
+                                                                    out
+                                                                    of the box with Unreal Engine’s physically-based
+                                                                    rasterizer and ray tracer. Selectively choose to ray
+                                                                    trace reflections, shadows, translucency, ambient
+                                                                    occlusion, image-based lighting, and global
+                                                                    illumination, while continuing to rasterize others
+                                                                    passes to get subtle, accurate effects at the
+                                                                    performance you need. Effects include dynamic soft
+                                                                    shadows from area lights, and ray-traced light from
+                                                                    HDRI
+                                                                    skylights.</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+
+                                    <div class="col-md-4 ">
+                                        <div class="card">
+                                            <img class="card-img-top"
+                                                src="source\img\Unreal+Engine_features_sophisticated-lighting_sky-600x600-8da4336dfaff773cf163c4cf7af3c44fab44a0b4.jpg"
+                                                alt="Card image cap">
+                                            <div class="card-body">
+                                                <p class="card-title">Sophisticated lighting</p>
+                                                <p class="text-left">Create realistic interior and exterior lighting
+                                                    effects
+                                                    while maintaining real-time performance, with a wide range of
+                                                    advanced
+                                                    lighting tools, including an atmospheric Sun and Sky environment,
+                                                    volumetric fog, volumetric lightmaps, precomputed lighting
+                                                    scenarios,
+                                                    and mesh distance fields.</p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="row mb-4">
+                                    <div class="col-md-8">
+                                        <div class="row">
+                                            <div class="col">
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <p class="card-title">Virtual Texturing
+                                                        </p>
+                                                        <p class="text-left">Unreal Engine offers two methods to enable
+                                                            support for very large textures by dividing them into small
+                                                            tiles and only loading the visible tiles. Streaming Virtual
+                                                            Texturing, which uses texel data from converted textures on
+                                                            disk, reduces texture memory overhead for light maps and
+                                                            detailed UDIM UV artist-created textures. Runtime Virtual
+                                                            Texturing, where texel data is generated by the GPU at
+                                                            runtime,
+                                                            improves rendering performance for procedural and layered
+                                                            materials.</p>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col">
+                                                <div class="card">
+                                                    <div class="card-body">
+
+                                                        <p class="card-title">Post-process and screen-space effects
+                                                        </p>
+                                                        <p class="text-left">Choose from a range of film-quality
+                                                            post-processing effects to adjust the overall look and feel
+                                                            of
+                                                            your scene, including HDR bloom, tone mapping, lens flare,
+                                                            depth
+                                                            of field, chromatic aberration, vignetting, and automatic
+                                                            exposure. Screen-space reflections, ambient occlusion, and
+                                                            global illumination enable you to achieve realistic effects
+                                                            while minimizing cost.
+                                                        </p>
+
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="row mt-3">
+                                            <div class="col">
+
+                                                <div class="card ">
+                                                    <div class="card-body">
+                                                        <p class="card-title">Color-accurate final output
+                                                        </p>
+                                                        <p class="text-left">Composure, Unreal Engine’s built-in
+                                                            compositor,
+                                                            facilitates real-time compositing directly in the Unreal
+                                                            Editor,
+                                                            enabling final-pixel output to be delivered in camera.
+                                                            Individual passes can also be output for offline
+                                                            compositing,
+                                                            while support for OpenColorIO and the ability to output to
+                                                            HDR
+                                                            displays while respecting the ACES standard ensure
+                                                            consistent
+                                                            color throughout the pipeline.
+                                                        </p>
+
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="col">
+
+                                                <div class="card ">
+                                                    <div class="card-body">
+
+                                                        <p class="card-title">High-quality media output
+                                                        </p>
+                                                        <p class="text-left">Create high-quality media for cinematics,
+                                                            marketing materials, and linear entertainment directly from
+                                                            Unreal Engine without post-processing, thanks to the ability
+                                                            to
+                                                            render movies and stills with accumulated anti-aliasing and
+                                                            motion blur. Support for tiled rendering enables you to
+                                                            create
+                                                            extremely high-resolution images, such as those intended for
+                                                            printed output. Multiple render jobs can be queued and
+                                                            rendered
+                                                            without user intervention.
+                                                        </p>
+
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-md-4 ">
+                                        <div class="card">
+                                            <img class="card-img-top"
+                                                src="source\img\Unreal+Engine_features_advanced-shading-models_ClearCoat_600x600-600x600-5d4c38201816ce16701aad4e0a14aadcb5d10a26.png"
+                                                alt="Card image cap">
+                                            <div class="card-body">
+                                                <p class="card-title">Advanced shading models</p>
+                                                <p class="text-left">Unreal Engine’s advanced shading models include
+                                                    Lit,
+                                                    Unlit, Clear Coat, Subsurface Scattering, Skin, Hair, Two-Sided
+                                                    Foliage,
+                                                    and Thin Transparency, enabling you to produce more realistic
+                                                    results on
+                                                    a wide range of objects and surfaces.</p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+
+
+                            </div>
+
+                        </div>
+                        <div class="col-md-2"></div>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-5">
+                    </div>
+                    <div class="col-md-2"></div>
+                </div>
+
+
+            </div>
+
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-2"></div>
+                <div class="col-md-8 text-center" id="tele5">
+                    <div class="headline-content" role="presentation">
+                        <h6>
+                            <span class="text-white" onclick="hide4()">SIMULATION AND EFFECTS
+                                <i class="fa fa-chevron-up" id="chevron4"></i></h6></span>
+
+                    </div>
+                </div>
+                <div class="col-md-2">
+                </div>
+            </div>
+            <div class="row justify-content-center" id="SimInfor">
+                <div class="col-md-12 text-center" id="tele3">
+                    <div class="row">
+                        <div class="col-md-2"></div>
+                        <div class="col-md-8">
+                            <div class="row mb-4">
+                                <div class="col-md-8">
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <p class="card-title">Niagara particles and visual effects
+                                                    </p>
+                                                    <p class="text-left">Create film-quality levels of VFX polish in
+                                                        real
+                                                        time for effects such as fire, smoke, dust, and water with
+                                                        completely customizable particle systems in the built-in Niagara
+                                                        visual effects editor. Impact your scene with particle lights;
+                                                        create complex particle motion with vector fields; author
+                                                        effects
+                                                        such as flocking and chains with particle-to-particle
+                                                        communication;
+                                                        and use the audio waveform data interface to have particles
+                                                        react to
+                                                        music or other audio sources.</p>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="card">
+                                                <div class="card-body">
+
+                                                    <p class="card-title">Clothing tools
+                                                    </p>
+                                                    <p class="text-left">Simulate clothing and other fabrics with the
+                                                        Chaos
+                                                        physics solver. Set clothing parameters directly within the
+                                                        Unreal
+                                                        Editor and see your results immediately for fast and easy
+                                                        iteration.
+                                                        Use the Paint Cloth Tool to intuitively select which areas of
+                                                        your
+                                                        mesh will behave like cloth and the degree to which they will be
+                                                        affected by physics.
+                                                    </p>
+
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="row mt-3">
+                                        <div class="col">
+                                            <div class="card mb-2">
+                                                <div class="row">
+                                                    <div class="col-6">
+                                                        <img src="source\img\Unreal+Engine_features_chaos-physics-and-destruction-system_Chaos-600x600-4719bdbc21f46355d81f07747c01918d3499e4a5.jpg"
+                                                            class="card-img">
+                                                    </div>
+                                                    <div class="col-6 ">
+                                                        <div class="card-body">
+                                                            <p class="card-title">Chaos physics and destruction system
+                                                            </p>
+                                                            <p class="text-left">Chaos is Unreal Engine’s
+                                                                next-generation
+                                                                high-performance physics system. Using Chaos’s
+                                                                Destruction
+                                                                feature, you can fracture, shatter, and demolish
+                                                                massive-scale scenes at cinematic quality with
+                                                                unprecedented
+                                                                levels of artistic control. Chaos also supports static
+                                                                mesh
+                                                                dynamics, cloth, hair, and rigid-body animation for
+                                                                dangling
+                                                                items such as pony tails, and is integrated with Niagara
+                                                                for
+                                                                secondary effects such as dust and smoke.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+                                <div class="col-md-4 ">
+                                    <div class="card">
+                                        <img class="card-img-top"
+                                            src="source\img\Unreal+Engine_features_strand-based-hair-and-fur_4.24_HairFur_600x600-600x600-d5d1de22cff706055e4669a83ab32d9b9f5a02ff.jpg"
+                                            alt="Card image cap">
+                                        <div class="card-body">
+                                            <p class="card-title">Strand-based hair and fur</p>
+                                            <p class="text-left">Simulate and render hundreds of thousands of photoreal
+                                                hairs at up to real-time speeds from grooms created in DCC packages, for
+                                                more convincing human characters and furry or hairy creatures. Strands
+                                                can
+                                                follow skin deformations for realistic fur and facial hair. The system
+                                                features an advanced hair shader and rendering system and integrated
+                                                Niagara
+                                                physics simulation via Chaos.</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+                        </div>
+
+
+
+
+                    </div>
+
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+
+        </div>
+
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 text-center" id="tele6">
+                <div class="headline-content" role="presentation">
+                    <h6>
+                        <span class="text-white" onclick="hide5()">GAMEPLAY AND INTERACTIVITY AUTHORING
+                            <i class="fa fa-chevron-up" id="chevron5"></i></h6></span>
+
+                </div>
+            </div>
+            <div class="col-md-2">
+            </div>
+        </div>
+        <div class="row justify-content-center" id="InterInfor">
+
+            <div class="col-md-12 text-center" id="tele4">
+                <div class="row">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-8">
+                        <div class="row mb-4">
+                            <div class="col-md-8">
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <p class="card-title">Robust multiplayer framework
+                                                </p>
+                                                <p class="text-left">For over two decades, Unreal Engine’s multiplayer
+                                                    framework has been battle-tested across many platforms and game
+                                                    types to
+                                                    produce some of the industry’s most compelling multiplayer
+                                                    experiences.
+                                                    Unreal Engine ships with a scalable and proven client/server
+                                                    architecture out of the box to bring instant viability to any
+                                                    project’s
+                                                    multiplayer component.</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card">
+                                            <div class="card-body">
+
+                                                <p class="card-title">Advanced artificial intelligence (AI)
+                                                </p>
+                                                <p class="text-left">Give AI-controlled characters increased spatial
+                                                    awareness of the world around them and enable them to make smarter
+                                                    movements with Unreal Engine’s gameplay framework and artificial
+                                                    intelligence system, controlled through either Blueprints or
+                                                    Behavior
+                                                    Trees. Dynamic navigation mesh updates in real time as you move
+                                                    objects
+                                                    for optimal pathing at all times.
+                                                </p>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="row mt-3">
+                                    <div class="col">
+
+                                        <div class="card ">
+                                            <div class="card-body">
+                                                <p class="card-title">Unreal Motion Graphics UI Designer (UMG)
+                                                </p>
+                                                <p class="text-left">Create UI elements such as in-game/in-application
+                                                    HUDs,
+                                                    menus, or other interface-related graphics you wish to present to
+                                                    your
+                                                    users with the UMG visual UI authoring tool. Construct your
+                                                    interface
+                                                    from editable Blueprint Widgets for pre-made functions like buttons,
+                                                    checkboxes, sliders, and progress bars.</p>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col">
+
+                                        <div class="card ">
+                                            <div class="card-body">
+
+                                                <p class="card-title">Variant Manager
+                                                </p>
+                                                <p class="text-left">With the Variant Manager, you can create and edit
+                                                    variants of your asset that include options for visibility,
+                                                    transforms,
+                                                    and material assignments, and activate or deactivate them in the
+                                                    Unreal
+                                                    Editor or at runtime. This is ideal for design reviews and marketing
+                                                    of
+                                                    configurable products, such as a commercial aircraft that can have
+                                                    different cabin layouts, furnishing, and fittings. Automated
+                                                    generation
+                                                    of variants is possible through a Python API.
+                                                </p>
+
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-md-4 ">
+                                <div class="card">
+                                    <img class="card-img-top"
+                                        src="source\img\Unreal+Engine_features_blueprint-visual-scripting-system_Blueprints_Crop_01-600x600-e92b029f1c3bd21bd38c7df8521bbad9684985cf.png"
+                                        alt="Card image cap">
+                                    <div class="card-body">
+                                        <p class="card-title">Blueprint visual scripting system</p>
+                                        <p class="text-left">With designer-friendly Blueprint visual scripting, you can
+                                            rapidly prototype and ship interactive content without touching a line of
+                                            code.
+                                            Use Blueprints to build object behaviors and interactions, modify user
+                                            interfaces, adjust input controls, and so much more. Visualize gameplay flow
+                                            and
+                                            inspect properties while testing your work using the powerful built-in
+                                            debugger.
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-2"></div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 text-center" id="tele7">
+                <div class="headline-content" role="presentation">
+                    <h6>
+                        <span class="text-white" onclick="hide6()">INTEGRATED MEDIA SUPPORT
+                            <i class="fa fa-chevron-up" id="chevron6"></i></h6></span>
+
+                </div>
+            </div>
+            <div class="col-md-2">
+            </div>
+        </div>
+        <div class="row justify-content-center" id="IntegInfor">
+
+            <div class="col-md-12 text-center " id="tele4">
+                <div class="row">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-8">
+                        <div class="row mt-3 mb-4">
+                            <div class="col">
+                                <div class="card ">
+                                    <div class="card-body">
+                                        <p class="card-title">Professional video I/O support and playback
+                                        </p>
+                                        <p class="text-left">Unreal Engine offers support for 4K UHD video and audio I/O
+                                            at
+                                            high bit depths and frame rates on a range of AJA Video Systems and
+                                            Blackmagic
+                                            cards, enabling integration of AR and CG graphics into live broadcast
+                                            transmissions. Full support for timecode and genlock ensures synchronization
+                                            between multiple different video feeds and signal processing devices.</p>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col">
+
+                                <div class="card ">
+                                    <div class="card-body">
+
+                                        <p class="card-title">Unreal Audio Engine
+                                        </p>
+                                        <p class="text-left">Enhance your project’s audio with a rich audio feature set
+                                            that
+                                            includes real-time synthesis, dynamic DSP effects, physical audio
+                                            propagation
+                                            modeling, OSC support, layered Sound Concurrency, a Spectral Analyzer for
+                                            Submixes, and the ability to bake Spectral Analysis curves and envelopes.
+                                            Recent
+                                            additions include convolution reverb processing and sound field rendering.
+                                        </p>
+
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <div class="col">
+                                <div class="card ">
+                                    <div class="card-body">
+                                        <p class="card-title">Media Framework
+                                        </p>
+                                        <p class="text-left">The Media Framework enables the playback of videos inside
+                                            Unreal Engine. Videos can be scrubbed, paused, or rewound inside a Media
+                                            Player
+                                            asset, as well as controlled through C++ or Blueprints Visual Scripting.
+                                            Supported formats include a range of Apple ProRes formats on Windows, and
+                                            video
+                                            encoded with the HAP codec.</p>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-2"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 text-center" id="tele8">
+                <div class="headline-content" role="presentation">
+                    <h6>
+                        <span class="text-white" onclick="hide7()">PLATFORM SUPPORT AND ON-SET TOOLS
+                            <i class="fa fa-chevron-up" id="chevron7"></i></span>
+                    </h6>
+
+                </div>
+            </div>
+            <div class="col-md-2">
+            </div>
+        </div>
+        <div class="row justify-content-center " id="PlateInfor">
+
+            <div class="col-md-12 text-center" id="tele4">
+                <div class="row">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-8">
+                        <div class="row mb-4">
+                            <div class="col-md-8">
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <p class="card-title">Multi-platform development
+                                                </p>
+                                                <p class="text-left">With Unreal Engine, you can deliver content on a
+                                                    comprehensive range of desktop, console, and mobile platforms,
+                                                    including
+                                                    Windows, MacOS, and Linux PCs; PlayStation 4, PlayStation 5, Xbox
+                                                    One,
+                                                    Xbox Series X, and Nintendo Switch; and iOS and Android mobile
+                                                    devices.
+                                                </p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card">
+                                            <div class="card-body">
+
+                                                <p class="card-title">VR, AR, and MR (XR) support
+                                                </p>
+                                                <p class="text-left">Unreal Engine provides the highest-quality solution
+                                                    for
+                                                    creating virtual reality (VR), augmented reality (AR), and mixed
+                                                    reality
+                                                    (MR) experiences thanks to native integration with the most popular
+                                                    platforms including Oculus VR, SteamVR, Google VR, HoloLens 2, Magic
+                                                    Leap, Windows Mixed Reality, ARKit, and ARCore. And with support for
+                                                    OpenXR, you can future-proof your applications for new devices.
+                                                </p>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="row mt-4" style="height: 50%;">
+                                    <div class="col">
+
+                                        <div class="card ">
+                                            <div class="card-body">
+                                                <p class="card-title">Pixel Streaming
+                                                </p>
+                                                <p class="text-left">Author interactive experiences such as product
+                                                    configurators or training applications, host them on a cloud-based
+                                                    GPU
+                                                    or on a local server, and stream them to a web browser on a remote
+                                                    PC,
+                                                    Mac, tablet, or phone anywhere in the world—without the need for
+                                                    additional software or porting. </p>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col">
+
+                                        <div class="card ">
+                                            <div class="card-body">
+
+                                                <p class="card-title">Remote control protocols
+                                                </p>
+                                                <p class="text-left">Create custom UIs that enable users to make
+                                                    settings
+                                                    from any device that hosts a web browser, including mobile devices,
+                                                    via
+                                                    a REST-like API—for example, you could control lighting from LED
+                                                    walls
+                                                    on set from an iPad. There’s also support for OSC (Open Sound
+                                                    Control)
+                                                    protocol—an easy-to-use industry standard for bidirectional
+                                                    communication between various devices, sensors, and audio equipment.
+                                                </p>
+
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-md-4 ">
+                                <div class="card">
+                                    <img class="card-img-top"
+                                        src="source\img\Unreal+Engine_features_efficient-multi-display-rendering_nDisplay-600x600-fe76958b200fc60897eff68c006e948bc96419f3.jpg"
+                                        alt="Card image cap">
+                                    <div class="card-body">
+                                        <p class="card-title">Efficient multi-display rendering</p>
+                                        <p class="text-left">Unreal Engine’s production-proven nDisplay system enables
+                                            you
+                                            to render real-time content at any resolution, and to display it on multiple
+                                            physical or projected screens such as Powerwalls, domes, CAVEs, and LED
+                                            walls.
+                                            Scenes can be rendered from multiple networked workstations, or from
+                                            multiple
+                                            instances of Unreal Engine running on a single workstation; nDisplay ensures
+                                            that content remains exactly in sync.</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="row mb-4">
+                            <div class="col-md-4">
+                                <div class="card ">
+                                    <div class="card-body">
+
+                                        <p class="card-title">Virtual Scouting for filmmakers
+                                        </p>
+                                        <p class="text-left">Virtual Scouting tools enable filmmakers to use VR to
+                                            explore
+                                            the world, determine scene blocking, compose shots by taking screengrabs of
+                                            the
+                                            scene, and—most importantly—place themselves in a virtually accurate
+                                            representation of the filming location to make better creative decisions.
+                                            Virtual Scouting can be used in conjunction with multi-user editing for
+                                            collaborative sessions.
+                                        </p>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card">
+                                    <div class="row" style="height:100%;">
+                                        <div class="col-6">
+                                            <img src="source\img\Unreal+Engine_features_virtual-camera-plugin_VirtualCamera-600x600-52a40c0bb04758ec8374a702b7ddcd46e35bdac4.jpg"
+                                                class="card-img">
+                                        </div>
+                                        <div class="col-6 ">
+                                            <div class="card-body">
+                                                <p class="card-title">Virtual Camera Plugin
+                                                </p>
+                                                <p class="text-left">Cinematographers working in a virtual
+                                                    production environment can drive cameras in Unreal Engine using
+                                                    an iPad Pro. With ARKit or an optical motion capture system such
+                                                    as Vicon or Optitrack, the position and rotation of the iPad is
+                                                    broadcast wirelessly to the PC, with the PC sending video back
+                                                    to the iPad.
+                                                    skylights.</p>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+
+        </div>
+
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 text-center" id="tele9">
+                <div class="headline-content" role="presentation">
+                    <h6>
+                        <span class="text-white" onclick="hide8()">CONTENT
+
+                            <i class="fa fa-chevron-up" id="chevron8"></i></h6></span>
+
+                </div>
+            </div>
+            <div class="col-md-2">
+            </div>
+        </div>
+        <div class="row justify-content-center" id="ConInfor">
+            <div class="col-md-12 text-center" id="tele8">
+                <div class="row">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-8">
+                        <div class="row mb-4">
+                            <div class="col-md-8">
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <p class="card-title">Quixel Megascans
+                                                </p>
+                                                <p class="text-left">Every Unreal Engine license comes with free access
+                                                    to
+                                                    the entire Quixel Megascans library for use in Unreal Engine. Based
+                                                    on
+                                                    real-world scans, this premium-quality library features thousands of
+                                                    3D
+                                                    and 2D PBR assets with optimized topology, UVs and LODs, and
+                                                    consistent
+                                                    scale and resolution.</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card">
+                                            <div class="card-body">
+
+                                                <p class="card-title">Industry-specific templates
+                                                </p>
+                                                <p class="text-left">To help you find the right starting point for your
+                                                    project and achieve your intended result in the shortest possible
+                                                    time,
+                                                    Unreal Engine enables you to choose from a variety of useful
+                                                    templates,
+                                                    including ones for collaborative multi-user design reviews on
+                                                    desktop
+                                                    and VR devices, studio lighting with an HDRI backdrop for product
+                                                    design, and highly realistic sun and sky environments for
+                                                    architectural
+                                                    visualization.
+                                                </p>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="row mt-3">
+                                    <div class="col">
+                                        <div class="card mb-2">
+                                            <div class="row">
+                                                <div class="col-6">
+                                                    <img src="source\img\Unreal+Engine_features_marketplace-ecosystem_UE_FeaturesPage_Marketplace-600x600-19906302fd817ff3d849393017ca79ac7a15c800.jpg"
+                                                        class="card-img">
+                                                </div>
+                                                <div class="col-6 ">
+                                                    <div class="card-body">
+                                                        <p class="card-title">Marketplace ecosystem
+                                                        </p>
+                                                        <p class="text-left">The Unreal Engine Marketplace has thousands
+                                                            of
+                                                            high-quality assets and plugins to accelerate production and
+                                                            bring new functionality to your work. Access new
+                                                            environments,
+                                                            characters, animations, textures, props, sound and visual
+                                                            effects, music tracks, Blueprints, middleware integration
+                                                            plugins, add-on tools, and full starter kits. Millions of
+                                                            dollars' worth of content is freely available in the
+                                                            Marketplace, with even more content available for purchase.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="col-md-4 ">
+                                <div class="card">
+                                    <img class="card-img-top"
+                                        src="source\img\Unreal+Engine_features_sample-projects_DigitalHuman-600x600-fdd3892d095b132420b2ce2e342a4aacf3a6b85d.png"
+                                        alt="Card image cap">
+                                    <div class="card-body">
+                                        <p class="card-title">Sample projects</p>
+                                        <p class="text-left">Explore, adapt, and learn from over 20 sample projects
+                                            included
+                                            with Unreal Engine. From photorealistic digital humans, to virtual studios
+                                            for
+                                            live broadcast, to Pixel Streaming your car configurator to a remote device,
+                                            you’ll find a range of samples that will help you get to speed for your own
+                                            projects in less time.</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+
+
+                </div>
+
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 text-center" id="tele10">
+                <div class="headline-content" role="presentation">
+                    <h6 id="fianlpara">
+                        <span class="text-white" onclick="hide9()">DEVELOPER TOOLS
+                            <i class="fa fa-chevron-up" id="chevron9"></i></h6></span>
+
+                </div>
+            </div>
+            <div class="col-md-2">
+            </div>
+
+        </div>
+        <div class="row justify-content-center" id="DevInfor">
+            <div class="col-md-12 text-center" id="tele9">
+                <div class="row">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-8">
+                        <div class="row mt-3">
+                            <div class="col-md-4">
+                                <div class="card ">
+                                    <div class="card-body">
+                                        <p class="card-title">Full access to C++ source code
+                                        </p>
+                                        <p class="text-left">With free access to the complete C++ source code, you can
+                                            study, customize, extend, and debug the entire Unreal Engine, and complete
+                                            your
+                                            project without obstruction. Our source code repository on GitHub is
+                                            continually
+                                            updated as we develop features in our own mainline, so you don’t even have
+                                            to
+                                            wait for the next product release to get your hands on the very latest code.
+                                        </p>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-md-4">
+
+                                <div class="card ">
+                                    <div class="card-body">
+
+                                        <p class="card-title">Seamless Perforce integration
+                                        </p>
+                                        <p class="text-left">The Unreal Editor has deep compatibility with Perforce,
+                                            bringing many version control commands directly into the Content Browser.
+                                            Manage
+                                            your projects and monitor asset status more closely with in-editor icons and
+                                            actions, share assets and code with other team members, and roll back
+                                            changes to
+                                            an earlier version at any time.
+                                        </p>
+
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card ">
+                                    <div class="card-body">
+                                        <p class="card-title">C++ API
+                                        </p>
+                                        <p class="text-left">With a robust C++ API, you can add new classes to extend
+                                            Unreal
+                                            Engine’s functionality. Designers can then use Blueprint to create custom
+                                            gameplay or interactions from these building blocks. Live Coding enables you
+                                            to
+                                            compile your changes without shutting down the Unreal Editor, so you can
+                                            quickly
+                                            test your progress.</p>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-4 mt-3 mb-5">
+
+                                <div class="card ">
+                                    <div class="card-body">
+
+                                        <p class="card-title">Profiling and performance
+                                        </p>
+                                        <p class="text-left">Unreal Engine includes a large number of tools to help you
+                                            profile, analyze, and optimize your project for real-time performance by
+                                            identifying and removing bottlenecks. The most recent addition is the Unreal
+                                            Insights system that collects, analyzes, and visualizes data on UE4
+                                            behavior,
+                                            helping you understand engine performance either live or from pre-recorded
+                                            sessions.
+                                        </p>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-4"></div>
+                                <div class="col-md-4"></div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-2"></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- Footer -->
+    <footer class="page-footer  blue pt-4" id="footer">
+
+        <!-- Footer Links -->
+        <div class="container-fluid  text-md-left">
+
+            <!-- Grid row -->
+            <div class="row">
+
+                <!-- Grid column -->
+                <div class="col-md-7 mt-md-0 mt-3  " id="footer" style="background-color: #2a2a2a;">
+
+                    <!-- Content -->
+                    <div class="row ml-5">
+                        <i class="fab fa-twitter ml-4 mr-3 mt-2" style="font-size: 1.6em;"></i>
+                        <i class="fab fa-facebook-square mr-3 mt-2" style="font-size: 1.6em;"></i>
+                        <i class="fab fa-twitch mr-3 mt-2" style="font-size: 1.6em;"></i>
+                        <i class="fab fa-instagram mr-3 mt-2 " style="font-size: 1.6em;"></i>
+                        <i class="fab fa-youtube mr-3 mt-2 " style="font-size: 1.6em;"></i>
+                        <i class="fas fa-rss mr-3 mt-2 " style="font-size: 1.6em;"></i>
+                    </div>
+                    <div class="link">
+                        <div class="row ml-5">
+
+                            <div class="col-2 mb-3 mt-5 ml-2 ">
+
+                                <!-- Links -->
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href="#!" style="font-size: 12px;">Features</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!"style="font-size: 12px;">Logo & Branding</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!"style="font-size: 12px;">Roadmap</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!"style="font-size: 12px;">Education</a>
+                                    </li>
+                                </ul>
+
+                            </div>
+                            <div class="col-2 mb-3 mt-5 ">
+
+                                <!-- Links -->
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href="#!"style="font-size: 12px;">Academic Partner</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!"style="font-size: 12px;">More Resources</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!"style="font-size: 12px;">Awards</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!"style="font-size: 12px;">Custom License Terms</a>
+                                    </li>
+                                </ul>
+
+                            </div>
+                            <div class="col-2 mb-3 mt-5">
+
+                                <!-- Links -->
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href="#!"style="font-size: 12px;">Online Service</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!"style="font-size: 12px;">Training Partners</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!"style="font-size: 12px;">Community Rules</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!"style="font-size: 12px;">Releasing your Game</a>
+                                    </li>
+                                </ul>
+
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+                <!-- Grid column -->
+
+                <hr class="clearfix w-100 d-md-none pb-3">
+
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-5 mb-md-0 mb-3  " style="background-color: #2a2a2a; text-align: right;">
+
+                    <!-- Links -->
+                    <i class="far fa-caret-square-up mr-5" style="font-size: 2.5em;"></i>
+
+                    <br>
+                        <button style=" right:0 ;font-size: 12px;">Sign up for Unreal Engine news!</button>
+                   
+
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row -->
+
+        </div>
+        <!-- Footer Links -->
+
+        <hr style="border-top: 1px solid rgb(65, 62, 62);" class="ml-5 mr-5">
+        <!-- Copyright -->
+        <div class="row" style="background-color: #2a2a2a; width:100%;">
+            <div class="col-md-12 " style="background-color: #2a2a2a;">
+                <p style="margin-left: 80px; color: #ccc; font-size: 12px;">© 2004-2020, Epic Games, Inc. All rights reserved. Unreal and its logo are
+                    Epic’s trademarks or registered trademarks in the US and elsewhere.</p>
+            </div>
+            <div class="col-md-10" style="background-color: #2a2a2a;">
+                <ul class="list-unstyled" style="white-space:nowrap; ">
+                    <li style="display:inline; ">
+                        <a href="#!" style="margin-left: 80px;font-size: 12px;">Online Service</a>
+                    </li>
+                    <li style="display:inline; ">
+                        <a href="#!"  style="margin-left: 15px;font-size: 12px;">Training Partners</a>
+                    </li>
+                </ul>
+
+
+            </div>
+            
+            <div class="col-md-2 mb-5" style="background-color: #2a2a2a;">
+                <a href="https://www.w3schools.com" >
+                <img  class="mr-5"alt="W3Schools" src="source\img\apple-touch-icon.png"  style="float: right; width:2em; height: auto;"></a>
+                <a href="https://www.w3schools.com">
+                    <img class="mr-3" alt="W3Schools" src="source\img\epic-games-2.svg"  style="float: right; width:2em;"></a>
+            </div>
+
+        </div>
+
+    </footer>
+    <!-- Footer -->
+
+</body>
+
+</html>
