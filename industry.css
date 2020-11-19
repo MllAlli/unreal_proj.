@@ -293,7 +293,7 @@ hr{
     height: 300px;
 }
 
-img {
+#im {
     max-width: 100%;
 }
 
@@ -399,13 +399,13 @@ img {
 @font-face {
   
     font-family: 'Open Sans';
-    src: url('OpenSans-Regular.ttf');
+    src: url('source/font/OpenSans-Regular.ttf');
   }
   
   @font-face {
     
     font-family: 'eurostar';
-    src: url('eurostarblackextended.ttf');
+    src: url('source/font/eurostarblackextended.ttf');
   }
   
   body{
@@ -413,16 +413,17 @@ img {
     font-family: 'Open Sans';
   }
   
-  a{
+  #a1{
     font-family: 'Open Sans';
     font-size: 11px;
     font-weight: lighter;
-    color: #ffffff !important;
+    color: #ffffff ;
     opacity: 0.75;
+    font-family: 'Open Sans';
     
   }
   
-  a:hover{
+  #a1:hover{
     opacity: 1;
   }
   
