@@ -1,0 +1,719 @@
+<html lang="en">
+
+<head>
+    <title>
+        Feed - Unreal Engine
+    </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link href="news.css" rel="stylesheet">
+    <link href="navbar.css" rel="stylesheet">
+    <link href="footer.css" rel="stylesheet">
+    <script src="news.js"></script>
+    <link rel="shortcut icon" href="\source\img\apple-touch-icon.png?v=3">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body style="background-color: #111;">
+    <nav class="navbar navbar-expand-lg" width="100%" style="background-color: #2a2a2a;"> 
+        <img id="epic" src="\source\img\epic.png" href="https://www.epicgames.com/store/en-US/">
+        <img id="unr" src="\source\img\UNREAL.png" href="index.html">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse navbar-expand-lg" id="navbar">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="news.html">NEWS</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        ABOUT
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="feature.html">FEATURES</a>
+                        <a class="dropdown-item" href="what's new.html">WHAT'S NEW</a>
+                        <a class="dropdown-item" href="https://portal.productboard.com/epicgames/1-unreal-engine-public-roadmap/tabs/20-unreal-engine-4-26-fall-2020">ROADMAP</a>
+                        <a class="dropdown-item" href="faq.html">FAQ</a>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    INDUSTRIES
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="game.html">GAMES</a>
+                        <a class="dropdown-item" href="architechture.html">ARCHITECHTURE</a>
+                        <a class="dropdown-item" href="automotive.html" style="line-height: 150%;">AUTOMOTIVE & <br>TRANSPORTATION</a>
+                        <a class="dropdown-item" href="broadcast.html" style="line-height: 150%;">BROADCAST & LIVE<br> EVENTS</a>
+                        <a class="dropdown-item" href="television.html">FILM & TELEVISION</a>
+                        <a class="dropdown-item" href="training.html" style="line-height: 150%;">TRAINING &<br> SIMULATION</a>
+                        <a class="dropdown-item" href="more_uses">MORE USES</a>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        LEARNING & SUPPORT
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="https://www.unrealengine.com/en-US/learn">GET STARTED</a>
+                        <a class="dropdown-item" href="https://docs.unrealengine.com/en-US/index.html">DOCUMENTATION</a>
+                        <a class="dropdown-item" href="https://www.unrealengine.com/en-US/onlinelearning-courses">ONLINE LEARNING</a>
+                        <a class="dropdown-item" href="https://www.unrealengine.com/en-US/events/webinar-series">WEBINARS</a>
+                        <a class="dropdown-item" href="https://www.unrealengine.com/en-US/education">EDUCATION</a>
+                        <a class="dropdown-item" href="https://www.unrealengine.com/en-US/support">SUPPORT</a>
+                        <a class="dropdown-item" href="https://issues.unrealengine.com/">ISSUES</a>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        COMMUNITY
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="https://forums.unrealengine.com/">FORUM</a>
+                        <a class="dropdown-item" href="https://answers.unrealengine.com/index.html">ANSWERHUB</a>
+                        <a class="dropdown-item" href="https://www.unrealengine.com/en-US/megagrants">MEGAGRANTS</a>
+                        <a class="dropdown-item" href="https://communities.unrealengine.com/">USER GROUPS</a>
+                        <a class="dropdown-item" href="https://www.unrealengine.com/en-US/feed/events">EVENTS</a>
+                        <a class="dropdown-item" href="https://www.unrealengine.com/en-US/programs/nvidia-edge">NVIDIA EDGE</a>
+                        <a class="dropdown-item" href="https://www.unrealengine.com/en-US/programs/intel-unreal">INTEL + UNREAL</a>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        MARKETPLACE
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item " href="https://www.unrealengine.com/marketplace/en-US/store?lang=en-US">BROWSE</a>
+                        <a class="dropdown-item " href="https://publish.unrealengine.com/v2/welcome">SUBMIT CONTENT</a>
+                        <a class="dropdown-item " href="https://marketplacehelp.epicgames.com/s/?language=en_US" style="line-height: 150%;">MARKETPLACE<br> KNOWLEDGE BASE</a>
+                        <a class="dropdown-item " href="https://www.unrealengine.com/en-US/marketplace-guidelines" style="line-height: 150%;">MARKETPLACE<br> GUIDLINES</a>
+                        <a class="dropdown-item " href="https://forums.unrealengine.com/unreal-engine/marketplace?56-Marketplace=">MARKETPLACE FORUMS</a>
+                    </div>
+                </li>
+
+
+            </ul>
+            <form class="form-inline my-0 my-lg-0" id="right">
+                <button class="btn btn-secondary2 my-2 my-sm-0" style="margin-right: 25px;">
+                    <img src="./source/img/search.png" width="17px">
+                </button>
+                <button class="btn btn-secondary2 my-2 my-sm-0">
+                    <img src="./source/img/globe.png" width="17px">
+                </button>
+                <button class="btn btn-secondary my-2 my-sm-0">
+                    <img src="./source/img/user.png" width="15px">
+                    &nbsp SIGN IN</button>
+                <button class="btn my-2 my-sm-0" id="blue" href="https://www.unrealengine.com/en-US/download">DOWNLOAD</button>
+            </form>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-9">
+                <div class="image-box">
+                    <div class="image-box-Bg-1">
+                        <div class="info">
+                            <div class="btn-toolbar" role="toolbar">
+                                <div class="btn-group  mr-2" role="group">
+                                    <button type="button" class="buttonevent">EVENT</button>
+                                </div>
+                            </div>
+                            <h1 class="b1">
+                                Unreal Build: Virtual Production 2020</h1>
+                            <p class="p1">Coming to you from the comfort of your own home on Tuesday, November 10,
+                                Unreal
+                                Build:
+                                Virtual Production is a free half-day virtual event that showcases incredible projects
+                                and
+                                innovations from film and television industry trailblazers.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-9">
+                <div class="row">
+                    <div class="col-md-5">
+                        <div class="card mb-3" style="background-color:#262626; max-width: 540px;" id="card-col-5">
+                            <div class="child imageback-3 zoom"></div>
+                            <div class="card-body">
+                                <div class="btn-toolbar" role="toolbar">
+                                    <div class="btn-group  mr-2" role="group">
+                                        <button type="button" class="buttonnews">NEWS</button>
+                                    </div>
+                                </div>
+                                <h5 class="card-title">Connect with the Unreal Engine community online</h5>
+                                <p class="card-text p1">Although many physical events around the world are currently
+                                    on hold, there are plenty of places to connect with the Unreal Engine community
+                                    online.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <div class="card mb-3" style="background-color:#262626; width: 100%;" id="card-col-7">
+                            <div class="child imageback-7 zoom"></div>
+                            <div class="card-body" style="margin-top: 50%;">
+                                <div class="btn-toolbar" role="toolbar">
+                                    <div class="btn-group  mr-2" role="group">
+                                        <button type="button" class="buttoninterview">INTERVIEW</button>
+                                    </div>
+                                </div>
+                                <h5 class="card-title">Rhythm of the Universe blends music-based gameplay and an
+                                    important message to create an epic VR series</h5>
+                                <p class="card-text p1">Comprised of many Berklee College of Music graduates along with
+                                    Valve and Capcom veterans, ROTU Entertainment aims tso create a new epic VR fantasy
+                                    series that combines music theory with a message about conservation. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-9 full">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="row"
+                            style="background-color:#262626; padding: 8%; height: 300px;  background-size: cover;">
+                            <div class="btn-toolbar" role="toolbar">
+                                <div class="btn-group  mr-2" role="group">
+                                    <button type="button" class="buttonspot">SPOTLIGHT</button>
+                                </div>
+                            </div>
+                            <h5 class="card-title">Digital showrooms enrich Pagani hypercar configuration experiences
+                            </h5>
+                        </div>
+                        <div class="row" style="height: 250px;  background-color: white;">
+                            <img class="card-img-top" style=" padding: 20px;"
+                                src="source\img\mhp19-logo-color-477x194-397764431.png">
+                        </div>
+                    </div>
+                    <div class="col-md-9" style=" overflow: hidden;">
+                        <div class="child imageback-91  zoom" style="transform:scale(1.03);">
+                            <p class="card-text p1"
+                                style="padding-top: 430px; padding-left: 2%; padding-right: 1%; font-size: 13px; ">A
+                                real-time configurator developed by MHP, combined with fully configurable automotive
+                                sales content, helps Pagani provide a top-end sales service to its exclusive client
+                                base.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-center mt-4">
+            <div class="col-md-9">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card mb-3 card-col-4" style="background-color:#262626; width: 100%;"
+                            id="card-col-4">
+                            <div class="child imageback-41 zoom"></div>
+                            <div class="card-body" style="margin-top:78%;">
+                                <div class="btn-toolbar" role="toolbar">
+                                    <div class="btn-group  mr-2" role="group">
+                                        <button type="button" class="buttonnews">NEWS</button>
+                                    </div>
+                                </div>
+                                <h5 class="card-title">What Remains of Edith Finch joins the Unreal Marketplace
+                                    Collection</h5>
+                                <p class="card-text p1">All Unreal creators now have access to a free, exclusive
+                                    collection of environment models, props, materials, and more from the BAFTA
+                                    Award-winning title, What Remains of Edith Finch, developed by Giant Sparrow.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-3 card-col-4" style="background-color:#262626; width: 100%;"
+                            id="card-col-4">
+                            <div class="child imageback-42 zoom">
+                            </div>
+                            <div class="card-body" style="margin-top:78%;">
+                                <div class="btn-toolbar" role="toolbar">
+                                    <div class="btn-group  mr-2" role="group">
+                                        <button type="button" class="buttonnews">NEWS</button>
+                                    </div>
+                                </div>
+                                <h5 class="card-title">Exploring next-gen gaming on The Pulse
+                                </h5>
+                                <p class="card-text p1">What do you think of when you hear “next-gen”? On this episode
+                                    of The Pulse, guest host Brian Crecente talks with seasoned devs about the
+                                    revolution beyond the consoles—cross-platform titles, new ways to expand player
+                                    communities, and professional-level tools and training for all. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-3 card-col-4" style="background-color:#262626; width: 100%;"
+                            id="card-col-4">
+                            <div class="child imageback-43 zoom"></div>
+                            <div class="card-body" style="margin-top:78%;">
+                                <div class="btn-toolbar" role="toolbar">
+                                    <div class="btn-group  mr-2" role="group">
+                                        <button type="button" class="buttonnews">NEWS</button>
+                                    </div>
+                                </div>
+                                <h5 class="card-title">Join the Unreal Engine team at Autodesk University 2020</h5>
+                                <p class="card-text p1">Visit our virtual booth, view our on-demand talks from Epic
+                                    presenters, and attend a scheduled session to pick an Epic brain!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-9 full">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="row"
+                            style="background-color:#262626; padding: 8%; height: 300px;  background-size: cover;">
+                            <div class="btn-toolbar" role="toolbar">
+                                <div class="btn-group  mr-2" role="group">
+                                    <button type="button" class="buttonspot">SPOTLIGHT</button>
+                                </div>
+                            </div>
+                            <h5 class="card-title">Real-time simulation of new HMI concepts at Scania
+                            </h5>
+                        </div>
+                        <div class="row" style="height: 250px;  background-color: rgb(0, 0, 0);">
+                            <img class="card-img-top" style=" padding: 20px;"
+                                src="source\img\geistt-inverted-bw4-1000x1000-511029158.png">
+                        </div>
+                    </div>
+                    <div class="col-md-9" style=" overflow: hidden;">
+                        <div class="child imageback-92 zoom" style="transform:scale(1.03); ">
+                            <p class="card-text p1"
+                                style="padding-top: 430px; padding-left: 2%; padding-right: 1%; font-size: 13px; ">From
+                                AI parking systems to advanced features for timber truck drivers, GEISTT AB is helping
+                                Scania test out HMI prototypes in real-time simulations for its existing and new
+                                generation of heavy vehicles</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-center mt-4">
+            <div class="col-md-9">
+                <div class="row">
+                    <div class="col-md-7">
+                        <div class="card mb-3" style="background-color:#262626; width: 100%;" id="card-col-7">
+                            <div class="child imageback-72 zoom"></div>
+                            <div class="card-body" style="margin-top: 50%;">
+                                <div class="btn-toolbar" role="toolbar">
+                                    <div class="btn-group  mr-2" role="group">
+                                        <button type="button" class="buttonnews">NEWS</button>
+                                    </div>
+                                </div>
+                                <h5 class="card-title">This STEM Day, bring real-time technology into the classroom</h5>
+                                <p class="card-text p1">STEM Day celebrates science, technology, engineering, and
+                                    mathematics. Take part by teaching students real-time skills with these free Unreal
+                                    Engine and Twinmotion lesson plans.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="card mb-3" style="background-color:#262626; max-width: 540px;" id="card-col-5">
+                            <div class="child imageback-32 zoom"></div>
+                            <div class="card-body">
+                                <div class="btn-toolbar" role="toolbar">
+                                    <div class="btn-group  mr-2" role="group">
+                                        <button type="button" class="buttonnews">NEWS</button>
+                                    </div>
+                                </div>
+                                <h5 class="card-title">Getting to know the developers behind Wakamarina Valley, NZ, No
+                                    Straight Roads, and Project Witchstone</h5>
+                                <p class="card-text p1" style="font-size: 12px;">The team at Unwinnable recaps its most
+                                    recent interviews with UE devs who made relaxing walks outdoors, a war between rock
+                                    and EDM, and a title about bringing the freedom of tabletop roleplaying to
+                                    videogames.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-center mt-4">
+            <div class="col-md-9">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card mb-3 card-col-4" style="background-color:#262626; width: 100%;"
+                            id="card-col-4">
+                            <div class="child imageback-44 zoom"></div>
+                            <div class="card-body" style="margin-top:78%;">
+                                <div class="btn-toolbar" role="toolbar">
+                                    <div class="btn-group  mr-2" role="group">
+                                        <button type="button" class="buttonnews">NEWS</button>
+                                    </div>
+                                </div>
+                                <h5 class="card-title">Free Automotive Bridge Environment now available on the Unreal
+                                    Marketplace</h5>
+                                <p class="card-text p1">The new Automotive Bridge Scene is the latest environment that
+                                    allows you to showcase your latest vehicle design. The modular setup empowers
+                                    artists to tailor the scene by tweaking the lighting, set dressing, and path of the
+                                    highway.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-3 card-col-4" style="background-color:#262626; width: 100%;"
+                            id="card-col-4">
+                            <div class="child imageback-45 zoom">
+                            </div>
+                            <div class="card-body" style="margin-top:78%;">
+                                <div class="btn-toolbar" role="toolbar">
+                                    <div class="btn-group  mr-2" role="group">
+                                        <button type="button" class="buttonnews">NEWS</button>
+                                    </div>
+                                </div>
+                                <h5 class="card-title">The Pulse: exploring virtual cars and the impact of digital IP
+                                </h5>
+                                <p class="card-text p1">From collaborative design in VR to digital showrooms,
+                                    configurators, and product placement, virtual cars are transforming every aspect of
+                                    the automaking process. Join innovators from BMW Group and Ferrari in this replay of
+                                    episode three of The Pulse. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-3 card-col-4" style="background-color:#262626; width: 100%;"
+                            id="card-col-4">
+                            <div class="child imageback-46 zoom"></div>
+                            <div class="card-body" style="margin-top:78%;">
+                                <div class="btn-toolbar" role="toolbar">
+                                    <div class="btn-group  mr-2" role="group">
+                                        <button type="button" class="buttoninterview">INTERVIEW</button>
+                                    </div>
+                                </div>
+                                <h5 class="card-title">The magic of creating Kena: Bridge of Spirits</h5>
+                                <p class="card-text p1">An inspiring look inside Ember Lab's next-gen creation: Kena:
+                                    Bridge of Spirits.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-center mt-4">
+            <div class="col-md-9">
+                <div class="row">
+                    <div class="col-md-7">
+                        <div class="card mb-3" style="background-color:#262626; width: 100%;" id="card-col-7">
+                            <div class="child imageback-73 zoom"></div>
+                            <div class="card-body" style="margin-top: 50%;">
+                                <div class="btn-toolbar" role="toolbar">
+                                    <div class="btn-group  mr-2" role="group">
+                                        <button type="button" class="buttonnews">NEWS</button>
+                                    </div>
+                                </div>
+                                <h5 class="card-title">From Pixel Streaming to sound design: new Unreal Online Learning
+                                    courses available now</h5>
+                                <p class="card-text p1">Looking to gain some new skills with Unreal Engine? Check out
+                                    the new course on animation fundamentals, or kick it up a notch and create your own
+                                    scatter tool, get into Pixel Streaming, or design your own in-game sound. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="card mb-3" style="background-color:#262626; max-width: 540px;" id="card-col-5">
+                            <div class="child imageback-33 zoom"></div>
+                            <div class="card-body">
+                                <div class="btn-toolbar" role="toolbar">
+                                    <div class="btn-group  mr-2" role="group">
+                                        <button type="button" class="buttoninterview">INTERVIEW</button>
+                                    </div>
+                                </div>
+                                <h5 class="card-title">Raji: An Ancient Epic represents one of this year's biggest
+                                    underdog stories</h5>
+                                <p class="card-text p1" style="font-size: 12px;">Putting nearly everything on the line,
+                                    Nodding Heads Games realized their dream of boldly representing India at the world
+                                    stage of video game development. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-center mt-2">
+            <div class="col-md-9 full">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="row"
+                            style="background-color:#262626; padding: 8%; height: 300px;  background-size: cover;">
+                            <div class="btn-toolbar" role="toolbar">
+                                <div class="btn-group  mr-2" role="group">
+                                    <button type="button" class="buttonspot">SPOTLIGHT</button>
+                                </div>
+                            </div>
+                            <h5 class="card-title">Rolling out real-time technology across an entire automotive company
+                            </h5>
+                        </div>
+                        <div class="row" style="height: 270px;  background-color: white;">
+                            <img class="card-img-top" style=" padding: 20px; padding-bottom: 5px;"
+                                src="source\img\bmw-logo-2000-2048x2048-2048x2048-089324653.png">
+                        </div>
+                    </div>
+                    <div class="col-md-9" style=" overflow: hidden;">
+                        <div class="child imageback-93  zoom" style="transform:scale(1.03);">
+                            <p class="card-text p1"
+                                style="padding-top: 430px; padding-left: 2%; padding-right: 1%; font-size: 13px; ">
+                                High-end automotive maker the BMW Group now has a single real-time platform connecting
+                                departments throughout its business, from design to manufacturing to sales. The results
+                                are faster design iterations, better-informed planning decisions—and a more compelling
+                                sales pitch.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-center mt-4">
+            <div class="col-md-9 full">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="row"
+                            style="background-color:#262626; padding: 8%; height: 300px;  background-size: cover;">
+                            <div class="btn-toolbar" role="toolbar">
+                                <div class="btn-group  mr-2" role="group">
+                                    <button type="button" class="buttonspot">SPOTLIGHT</button>
+                                </div>
+                            </div>
+                            <h5 class="card-title">Unreal Engine Spotlight: Konami’s eFootball PES 2020 Mobile
+                            </h5>
+                        </div>
+                        <div class="row" style="height: 250px;  background-color: white;">
+                            <img class="card-img-top" style=" padding:20px;height:40%;  margin-top:24%;"
+                                src="source\img\wpid-konami-logo1-1999x423-226417049.png">
+                        </div>
+                    </div>
+                    <div class="col-md-9" style=" overflow: hidden;">
+                        <div class="child imageback-94  zoom" style="transform:scale(1.03);">
+                            <p class="card-text p1"
+                                style="padding-top: 430px; padding-left: 2%; padding-right: 1%; font-size: 13px; ">
+                                Learn how Konami leveraged Unreal Engine to bring a console-quality sports experience to
+                                mobile devices.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-center mt-4">
+            <div class="col-md-9 full">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="row"
+                            style="background-color:#262626; padding: 8%; height: 300px;  background-size: cover;">
+                            <div class="btn-toolbar" role="toolbar">
+                                <div class="btn-group  mr-2" role="group">
+                                    <button type="button" class="buttonspot">SPOTLIGHT</button>
+                                </div>
+                            </div>
+                            <h5 class="card-title">A driving force: real-time rendering on The Mill’s high-octane F1 ads
+                            </h5>
+                        </div>
+                        <div class="row" style="height: 250px;  background-color: rgb(0, 0, 0);">
+                            <img class="card-img-top" style="height: 100%; padding: 20px; padding-bottom: 5px;"
+                                src="source\img\mill-white-logo-1-371x433-193024680.png">
+                        </div>
+                    </div>
+                    <div class="col-md-9" style=" overflow: hidden;">
+                        <div class="child imageback-95  zoom" style="transform:scale(1.03);">
+                            <p class="card-text p1"
+                                style="padding-top: 430px; padding-left: 2%; padding-right: 1%; font-size: 13px; ">
+                                Discover how creative content studio The Mill harnessed the power of real-time rendering
+                                to deliver the launch promo idents for the new F1 2020 season on a tight schedule ahead
+                                of Sky’s TV coverage.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-center mt-4">
+            <div class="col-md-9 full">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="row"
+                            style="background-color:#262626; padding: 8%; height: 300px;  background-size: cover;">
+                            <div class="btn-toolbar" role="toolbar">
+                                <div class="btn-group  mr-2" role="group">
+                                    <button type="button" class="buttonspot">SPOTLIGHT</button>
+                                </div>
+                            </div>
+                            <h5 class="card-title">Teaching teens real-time skills with an Unreal Bootcamp
+                            </h5>
+                        </div>
+                        <div class="row" style="height: 250px;  background-color: rgb(0, 0, 0);">
+                            <img class="card-img-top" style="height: 40%; padding: 20px; padding-bottom: 5px; margin-top:30%;"
+                                src="source\img\game-wizards-compton-v2-1028x341-149004355.jfif">
+                        </div>
+                    </div>
+                    <div class="col-md-9" style=" overflow: hidden;">
+                        <div class="child imageback-96  zoom" style="transform:scale(1.03);">
+                            <p class="card-text p1"
+                                style="padding-top: 430px; padding-left: 2%; padding-right: 1%; font-size: 13px; ">
+                                When educator Eric T. Elder was looking into designing a video game pathway for an
+                                inner-city school district, an Epic MegaGrant enabled him to set up the area’s first
+                                Unreal Bootcamp to teach real-time skills in Unreal Engine. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- Footer -->
+    <footer class="page-footer  blue pt-4" id="footer">
+
+        <!-- Footer Links -->
+        <div class="container-fluid  text-md-left">
+
+            <!-- Grid row -->
+            <div class="row">
+
+                <!-- Grid column -->
+                <div class="col-md-7 mt-md-0 mt-3  " id="footer" style="background-color: #2a2a2a;">
+
+                    <!-- Content -->
+                    <div class="row ml-5">
+                        <i class="fab fa-twitter ml-4 mr-3 mt-2" style="font-size: 1.6em;"></i>
+                        <i class="fab fa-facebook-square mr-3 mt-2" style="font-size: 1.6em;"></i>
+                        <i class="fab fa-twitch mr-3 mt-2" style="font-size: 1.6em;"></i>
+                        <i class="fab fa-instagram mr-3 mt-2 " style="font-size: 1.6em;"></i>
+                        <i class="fab fa-youtube mr-3 mt-2 " style="font-size: 1.6em;"></i>
+                        <i class="fas fa-rss mr-3 mt-2 " style="font-size: 1.6em;"></i>
+                    </div>
+                    <div class="link">
+                        <div class="row ml-5">
+
+                            <div class="col-2 mb-3 mt-5 ml-2 ">
+
+                                <!-- Links -->
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href="#!" id="a3" style="font-size: 12px;">Features</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!" id="a3"style="font-size: 12px;">Logo & Branding</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!" id="a3"style="font-size: 12px;">Roadmap</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!" id="a3"style="font-size: 12px;">Education</a>
+                                    </li>
+                                </ul>
+
+                            </div>
+                            <div class="col-2 mb-3 mt-5 ">
+
+                                <!-- Links -->
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href="#!" id="a3"style="font-size: 12px;">Academic Partner</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!" id="a3"style="font-size: 12px;">More Resources</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!" id="a3"style="font-size: 12px;">Awards</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!" id="a3"style="font-size: 12px;">Custom License Terms</a>
+                                    </li>
+                                </ul>
+
+                            </div>
+                            <div class="col-2 mb-3 mt-5">
+
+                                <!-- Links -->
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href="#!" id="a3"style="font-size: 12px;">Online Service</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!" id="a3"style="font-size: 12px;">Training Partners</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!" id="a3"style="font-size: 12px;">Community Rules</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!" id="a3"style="font-size: 12px;">Releasing your Game</a>
+                                    </li>
+                                </ul>
+
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+                <!-- Grid column -->
+
+                <hr class="clearfix w-100 d-md-none pb-3">
+
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-5 mb-md-0 mb-3  " style="background-color: #2a2a2a; text-align: right;">
+
+                    <!-- Links -->
+                    <i class="far fa-caret-square-up mr-5" style="font-size: 2.5em;"></i>
+
+                    <br>
+                        <button style=" right:0 ;font-size: 12px;">Sign up for Unreal Engine news!</button>
+                   
+
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row -->
+
+        </div>
+        <!-- Footer Links -->
+
+        <hr style="border-top: 1px solid rgb(65, 62, 62);" class="ml-5 mr-5">
+        <!-- Copyright -->
+        <div class="row" style="background-color: #2a2a2a; width:100%;">
+            <div class="col-md-12 " style="background-color: #2a2a2a;">
+                <p style="margin-left: 80px; color: #ccc; font-size: 12px;">© 2004-2020, Epic Games, Inc. All rights reserved. Unreal and its logo are
+                    Epic’s trademarks or registered trademarks in the US and elsewhere.</p>
+            </div>
+            <div class="col-md-10" style="background-color: #2a2a2a;">
+                <ul class="list-unstyled" style="white-space:nowrap; ">
+                    <li style="display:inline; ">
+                        <a href="#!" id="a3" style="margin-left: 80px;font-size: 12px;">Online Service</a>
+                    </li>
+                    <li style="display:inline; ">
+                        <a href="#!" id="a3"  style="margin-left: 15px;font-size: 12px;">Training Partners</a>
+                    </li>
+                </ul>
+
+
+            </div>
+            
+            <div class="col-md-2 mb-5" style="background-color: #2a2a2a;">
+                <a id="a3" href="https://www.w3schools.com" >
+                <img  class="mr-5"alt="W3Schools" src="source\img\apple-touch-icon.png"  style="float: right; width:2em; height: auto;"></a>
+                <a id="a3" href="https://www.w3schools.com">
+                    <img class="mr-3" alt="W3Schools" src="source\img\epic-games-2.svg"  style="float: right; width:2em;"></a>
+            </div>
+
+        </div>
+
+    </footer>
+    <!-- Footer -->
+</body>
+
+</html>
