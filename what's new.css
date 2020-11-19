@@ -1,0 +1,280 @@
+@font-face {
+    font-family: 'BrutalType-Regular';
+    src: url('source/font/BrutalType-Regular.ttf');
+}
+@font-face {
+font-family: 'ExtraLight';
+    src: url('source/font/BrutalType-ExtraLight.ttf');
+}
+@font-face {
+    font-family: 'Medium';
+    src: url('source/font/BrutalType-Medium.ttf');
+    }
+@font-face {
+    font-family: 'Black';
+    src: url('source/font/BrutalType-Black.ttf');
+    }
+@font-face {
+    font-family: 'Bold';
+    src: url('source/font/BrutalType-Bold.ttf');
+    }
+@font-face {
+    font-family: 'light';
+    src: url('source/font/BrutalType-Light.ttf');
+    }
+@font-face {
+    font-family: 'Eurostar';
+    src: url('source/font/eurostarblackextended.ttf');
+    }
+@font-face {
+      font-family: 'Open Sans';
+      src: url('source/font/OpenSans-Regular.ttf');
+  }
+  @font-face {
+    font-family: 'OpenBold';
+    src: url('source/font/OpenSans-SemiBold.ttf');
+}
+
+*{
+    font-family: 'BrutalType-Regular';
+    color: white;
+}
+
+h1{
+  font-family:"OpenBold";
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.a1{
+  font-family:"OpenBold";
+  font-weight: bold;
+  font-size: medium;
+}
+
+.button-wrapper{
+  width:220px;
+  height:50px;
+  font-size:16px;
+  display:block;
+  text-align: center;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  color: white;
+  font-family: 'BrutalType-Regular';
+}
+
+.button2{
+  background-color: #0aaff1;
+}
+.button2:hover{
+  background-color:#0996CC;
+  color: white;
+} 
+
+.info{
+  width:350px;
+  height:60px;
+  font-size:large;
+  display:block;
+  text-align: center;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  color: white;
+  background-color: #0aaff1;
+  font-family: 'bold';
+}
+.drop{
+  background-color: black;
+  color: white;
+}
+.dropdown-toggle{
+  background-color: black;
+  color: white;
+  width:auto;
+  height:auto;
+}
+option {
+    background-color: white;
+    color: black;
+    font-size: small;
+    font-family: 'BrutalType-Regular';
+}
+
+select{
+  background-color: black;
+  color: white;
+  font-size: x-large;
+
+}
+img {
+    max-width: 100%;
+}
+
+.jumbotronMain {
+    background-image: url("source\\img\\Unreal+Engine_release-notes_unreal-engine-4-25-released_4.25_HeroBanner_geometric_pattern_1920x848_V2-1920x848-34f5e79dde7b2d81ea1ca82db582a1453906195f.png");
+    height: 475px;
+}
+
+.textbox1 {
+    position: relative;
+    top: 26%;
+    left: 20%;
+    color: white;
+}
+
+.textbox2 {
+    position: absolute;
+    color: white;
+    margin-top: 4%;
+    left: 3%;
+    right: 5%;
+}
+
+.text1 {
+    width: 750px;
+}
+
+.text2 {
+    margin-top: 5%;
+    margin-left: 30%;
+}
+
+.main-content {
+    background-color: black;
+    height: auto;
+}
+
+.button1 {
+    padding: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.thumbnail {
+    height: 400px;
+    margin-left: 5%;
+    margin-right: 5%;
+    position: relative;
+}
+
+.row-bottom {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.small-thumbnail {
+    height: 280px;
+}
+
+.image1 {
+    background-size: cover;
+    background: url("source\\img\\Unreal+Engine_release-notes_unreal-engine-4-25-released_Next_gen_banner_PS5_SeriesX_1920x548-1920x548-528866a5d3d11c0d6a0a908144c0000e28b7c5d6.png") center center;
+}
+.image2 {
+    background-size: cover;
+    background: url("source\\img\\Unreal+Engine_release-notes_unreal-engine-4-25-released_4.25_Niagara_Fortnite_V3-1920x548-e03514e2a515d16208966c7937f38d3b0c825025.jpg") center center;
+}
+.image3 {
+    background-size: cover;
+    background: url("source\\img\\Unreal+Engine_release-notes_unreal-engine-4-25-released_4.25_HeroBanner_Chaos_V1-1920x548-e65fbf0024900ad77f822f8da0131ccd303881a5.jpg") center center;
+}
+.small-image1 {
+    background: url("source\\img\\Unreal+Engine_release-notes_unreal-engine-4-25-released_4.25_Unreal_Insights_942x600_V1-942x600-fea3ddbdd8b884272321d87c6d681fa9653ba404.jpg") center center;
+}
+.small-image2 {
+    background-size: 5%;
+    background: url("source\\img\\Unreal+Engine_release-notes_unreal-engine-4-25-released_4.25_High_Quality_Media_Output_942x600-942x600-6369a3d11c8ccc396fedf4e7cd65c90ca0ed37ee.jpg") center center;
+}
+.small-image3 {
+    background: url("source\\img\\Unreal+Engine_release-notes_unreal-engine-4-25-released_4.25_Shading_Model_Improvements_942x600_CarPaint-942x600-ea68e3abbe550cc09e157c361b017d424a003be8.jpg") center center;
+}
+.small-image4 {
+    background: url("source\\img\\Unreal+Engine_release-notes_unreal-engine-4-25-released_4.25_Immersive-true-to-life-audio_942x600_V2-942x600-2099f308547f8deffd3885b29fc08f98991f754d.jpg") center center;
+}
+.small-image5 {
+    background: url("source\\img\\Unreal+Engine_features_lidar-point-cloud-support_LiDAR-600x600-ce169045ac93374f6fd7607be5119872ea9dbf4f.jpg") center center;
+}
+.small-image6 {
+    background: url("source\\img\\Unreal+Engine_release-notes_unreal-engine-4-25-released_4.25_HoloLens2_942x600_V1-942x600-ca44b68006ad6ddf74735bccc2bfc7ed34bd799c.jpg") center center;
+}
+.small-textbox {
+    height: 375px;
+    background-color: rgb(39, 39, 39);
+    padding: 5%;
+    margin-bottom: 10%;
+}
+.small-textbox p {
+    font-size: 14px;
+}
+
+@media screen and (max-width:1100px) {
+    .textbox1 {
+        left: 5%;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .jumbotronMain {
+        height: 300px;
+    }
+    .textbox1 {
+        display: none;
+    }
+    .selection {
+        text-align: left;
+    }
+}
+.caption {
+    padding: 10px;
+    background-color:rgba(0, 0, 0, 0.8);
+}
+.navbar {
+    background-color: #2a2a2a;
+    height: 6.99%;
+
+}
+
+.nav-item,
+.dropdown-item {
+    font-family: 'Eurostile';
+    color: #C6C6C6;
+    margin-left: 3.5%;
+    font-size: 10px;
+}
+
+.navbar-brand {
+    font-family: 'Eurostile';
+    color: #ffffff;
+    text-shadow: 1px 1px #a8a8a8;
+    font-size: 20px;
+    margin-left: 3%;
+}
+
+.nav-link{
+    font-family: 'Brutal Type';
+    letter-spacing: 1.5px;
+    color: #C6C6C6;
+    font-size: 10px;
+}
+
+.dropdown-toggle::after {
+    display:none;
+}
+#epic {
+    width: 30px;
+}
+
+.full-notes {
+    text-align: center;
+}
+.note {
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-weight: bold;
+    font-size: large;
+}

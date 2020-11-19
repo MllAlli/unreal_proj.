@@ -1,0 +1,423 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link href="what's new.css" rel="stylesheet">
+    <link href="footer.css" rel="stylesheet">
+    <link href="navbar.css" rel="stylesheet">
+    <link rel="shortcut icon" href="source\img\apple-touch-icon.png?v=3">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <title>Unreal Engine 4.25 released</title>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg" width="100%" style="background-color: #2a2a2a;"> 
+        <img id="epic" src="\source\img\epic.png" href="https://www.epicgames.com/store/en-US/">
+        <img id="unr" src="\source\img\UNREAL.png" href="index.html">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse navbar-expand-lg" id="navbar">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="news.html">NEWS</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        ABOUT
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="feature.html">FEATURES</a>
+                        <a class="dropdown-item" href="what's new.html">WHAT'S NEW</a>
+                        <a class="dropdown-item" href="https://portal.productboard.com/epicgames/1-unreal-engine-public-roadmap/tabs/20-unreal-engine-4-26-fall-2020">ROADMAP</a>
+                        <a class="dropdown-item" href="faq.html">FAQ</a>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    INDUSTRIES
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="game.html">GAMES</a>
+                        <a class="dropdown-item" href="architechture.html">ARCHITECHTURE</a>
+                        <a class="dropdown-item" href="automotive.html" style="line-height: 150%;">AUTOMOTIVE & <br>TRANSPORTATION</a>
+                        <a class="dropdown-item" href="broadcast.html" style="line-height: 150%;">BROADCAST & LIVE<br> EVENTS</a>
+                        <a class="dropdown-item" href="television.html">FILM & TELEVISION</a>
+                        <a class="dropdown-item" href="training.html" style="line-height: 150%;">TRAINING &<br> SIMULATION</a>
+                        <a class="dropdown-item" href="more_uses">MORE USES</a>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        LEARNING & SUPPORT
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="https://www.unrealengine.com/en-US/learn">GET STARTED</a>
+                        <a class="dropdown-item" href="https://docs.unrealengine.com/en-US/index.html">DOCUMENTATION</a>
+                        <a class="dropdown-item" href="https://www.unrealengine.com/en-US/onlinelearning-courses">ONLINE LEARNING</a>
+                        <a class="dropdown-item" href="https://www.unrealengine.com/en-US/events/webinar-series">WEBINARS</a>
+                        <a class="dropdown-item" href="https://www.unrealengine.com/en-US/education">EDUCATION</a>
+                        <a class="dropdown-item" href="https://www.unrealengine.com/en-US/support">SUPPORT</a>
+                        <a class="dropdown-item" href="https://issues.unrealengine.com/">ISSUES</a>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        COMMUNITY
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="https://forums.unrealengine.com/">FORUM</a>
+                        <a class="dropdown-item" href="https://answers.unrealengine.com/index.html">ANSWERHUB</a>
+                        <a class="dropdown-item" href="https://www.unrealengine.com/en-US/megagrants">MEGAGRANTS</a>
+                        <a class="dropdown-item" href="https://communities.unrealengine.com/">USER GROUPS</a>
+                        <a class="dropdown-item" href="https://www.unrealengine.com/en-US/feed/events">EVENTS</a>
+                        <a class="dropdown-item" href="https://www.unrealengine.com/en-US/programs/nvidia-edge">NVIDIA EDGE</a>
+                        <a class="dropdown-item" href="https://www.unrealengine.com/en-US/programs/intel-unreal">INTEL + UNREAL</a>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        MARKETPLACE
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item " href="https://www.unrealengine.com/marketplace/en-US/store?lang=en-US">BROWSE</a>
+                        <a class="dropdown-item " href="https://publish.unrealengine.com/v2/welcome">SUBMIT CONTENT</a>
+                        <a class="dropdown-item " href="https://marketplacehelp.epicgames.com/s/?language=en_US" style="line-height: 150%;">MARKETPLACE<br> KNOWLEDGE BASE</a>
+                        <a class="dropdown-item " href="https://www.unrealengine.com/en-US/marketplace-guidelines" style="line-height: 150%;">MARKETPLACE<br> GUIDLINES</a>
+                        <a class="dropdown-item " href="https://forums.unrealengine.com/unreal-engine/marketplace?56-Marketplace=">MARKETPLACE FORUMS</a>
+                    </div>
+                </li>
+
+
+            </ul>
+            <form class="form-inline my-0 my-lg-0" id="right">
+                <button class="btn btn-secondary2 my-2 my-sm-0" style="margin-right: 25px;">
+                    <img src="./source/img/search.png" width="17px">
+                </button>
+                <button class="btn btn-secondary2 my-2 my-sm-0">
+                    <img src="./source/img/globe.png" width="17px">
+                </button>
+                <button class="btn btn-secondary my-2 my-sm-0">
+                    <img src="./source/img/user.png" width="15px">
+                    &nbsp SIGN IN</button>
+                <button class="btn my-2 my-sm-0" id="blue" href="https://www.unrealengine.com/en-US/download">DOWNLOAD</button>
+            </form>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row jumbotronMain">
+            <div class="textbox1">
+                <h1>Unreal Engine 4.25 is here!</h1><br>
+                <p class="text1">Unreal Engine 4.25 delivers support for Sony's PlayStation 5 and Microsoft's Xbox
+                    Series X
+                    next-generation consoles, and updated feature sets like Niagara VFX and Chaos physics that are
+                    battle-tested and shipping in Fortnite. There are also enhanced profiling tools, a new high-quality
+                    media output pipeline, new and improved shading models, next-gen audio tools, and much more.</p>
+                <button class="btn button2 button-wrapper"><img src="source/img/download.png" style="width: 20%"> GET UNREAL</button>
+            </div>
+        </div>
+    </div>
+    <section class="main-content">
+        <div class="sub-nav">
+            <div class="container-fluid mb-4">
+                <div class="row">
+                    <div class="col-xs-12 col-md-6 text-align-left" style="margin-top: 7%; padding-left: 6%;">
+                        <h2>MAJOR NEW FEATURES</h2>
+                    </div>
+                    <div class="col-xs-12 col-md-6 selection"
+                        style="text-align: right; margin-top: 7%; padding-right: 6%;">
+                        <div class="dropdown-view">
+                            <h3>SELECT A RELEASE</h3>
+                            <select>RELEASE NOTES 4.25
+                                <option value="4.25">RELEASE NOTES 4.25</option>
+                                <option value="4.24">RELEASE NOTES 4.24</option>
+                                <option value="4.23">RELEASE NOTES 4.23</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="content-section large-blocks">
+            <div class="container-fluid mb-4">
+                <div class="col-xs-12" style="height: 400px;">
+                    <div class="thumbnail image1">
+                            <div class="caption row-bottom">
+                                    <a href=""><h5>console platform support (Beta)</h5></a>
+                                    <p>We’ve added initial support for Sony’s PlayStation 5 and Microsoft’s Xbox
+                                        Series X
+                                        consoles as
+                                        first-class platforms, and throughout the year we will be updating the 4.25-Plus branch
+                                        with
+                                        optimizations, fixes, and certification requirements. Platform-specific functionality
+                                        includes
+                                        next-gen audio features, together with initial support for Online Subsystems and for TRC
+                                        and XR
+                                        certification.</p>
+                                </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid mb-4">
+                <div class="col-xs-12" style="height: 400px;">
+                    <div class="thumbnail image2">
+                        <div class="caption row-bottom">
+                            <a href=""><h5>Production-ready Niagara VFX</h5></a>
+                            <p>The Niagara visual effects system is now production-ready—and already
+                                production-proven
+                                on Fortnite—with a polished new UI and significant performance and stability
+                                improvements. New features include the ability to create complex, large-scale particle
+                                effects such as flocking and chains, and to have particles react to music or other audio
+                                sources—all in real time.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="col-xs-12" style="height: 400px;">
+                    <div class="thumbnail image3">
+                        <div class="caption row-bottom">
+                            <a href=""><h5>Chaos physics and destruction system updates (Beta)</h5></a>
+                            <p>The Chaos physics system is now in active use on shipping seasons of
+                                Fortnite. With this
+                                release, Chaos supports destruction, static mesh dynamics with collisions, cloth, hair,
+                                rigid-body skeletal control for items such as ponytails, and scene queries. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="content-section small-blocks" style="margin-top: 8%;">
+            <div class="container-fluid">
+                <div class="row" style="padding: 5%;">
+                    <div class="col-sm-4">
+                        <div class="small-thumbnail small-image1"></div>
+                        <div class="small-textbox">
+                            <a href=""><h5>Enhanced profiling (Beta)</h5></a>
+                            <p>Unreal Insights now offers an improved user experience and introduces Networking Insights
+                                (Experimental), which helps developers optimize, analyze, and debug network traffic;
+                                we’ve also added a separate Animation Insights plugin (Experimental) to the Unreal
+                                Editor, enabling the visualization of gameplay state and live animation behavior.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="small-thumbnail small-image2"></div>
+                        <div class="small-textbox">
+                            <a href=""><h5>High-quality media output (Beta)</h5></a>
+                            <p>Now you can efficiently render high-quality movies and stills with accumulated
+                                anti-aliasing and motion blur—ideal for cinematics, marketing materials, and linear
+                                entertainment. In addition, the new pipeline supports tiled rendering, enabling
+                                extremely high-resolution images to be output directly from Unreal Engine without
+                                post-processing. </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="small-thumbnail small-image3"></div>
+                        <div class="small-textbox">
+                            <a href=""><h5>Shading model improvements</h5></a>
+                            <p>Easily simulate materials such as tinted car windows and brushed metal with a new
+                                physically based Thin Transparency shading model and a new Anisotropy material input
+                                property (Beta). In addition, the Clear Coat shading model, which can be used to
+                                simulate multilayered car paint, now exhibits a much more physically accurate response
+                                to directional, spot, and point lights.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="small-thumbnail small-image4"></div>
+                        <div class="small-textbox">
+                            <a href=""><h5>Immersive, true-to-life audio (Beta)</h5></a>
+                            <p>The Unreal Audio Engine now supports convolution reverb processing and sound field
+                                rendering. These features enable designers to enhance their projects with more immersive
+                                and realistic audio experiences by using detailed captured or designed sound fields that
+                                spherically envelop their listeners, and sampled reverb impulses that simulate real-life
+                                acoustic spaces.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="small-thumbnail small-image5"></div>
+                        <div class="small-textbox">
+                            <a href=""><h5>LiDAR point cloud support</h5></a>
+                            <p>Aggregate and use huge datasets captured from the real world to visualize locations or to
+                                give accurate context to newly designed elements, with new built-in support in Unreal
+                                Engine for importing, visualizing, editing, and interacting with multiple point cloud
+                                segments, including the ability to delete hidden points.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="small-thumbnail small-image6"></div>
+                        <div class="small-textbox">
+                            <a href=""><h5>Enhanced HoloLens 2 support</h5></a>
+                            <p>Support for HoloLens 2 is now production-ready! This release also features performance
+                                improvements, new support for mixed reality capture from a third-person camera view, the
+                                new ability to enable HoloLens remoting from packaged Unreal Engine applications via a
+                                command line, and more. There’s also initial support for Azure Spatial Anchors (Beta).
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="container full-notes">
+            <center><button type="button"class="info">Release Notes 4.25</button></center>
+        </div>
+        <br>
+    </section>
+    <!-- Footer -->
+    <footer class="page-footer  blue pt-4" id="footer">
+
+        <!-- Footer Links -->
+        <div class="container-fluid  text-md-left">
+
+            <!-- Grid row -->
+            <div class="row">
+
+                <!-- Grid column -->
+                <div class="col-md-7 mt-md-0 mt-3  " id="footer" style="background-color: #2a2a2a;">
+
+                    <!-- Content -->
+                    <div class="row ml-5">
+                        <i class="fab fa-twitter ml-4 mr-3 mt-2" style="font-size: 1.6em;"></i>
+                        <i class="fab fa-facebook-square mr-3 mt-2" style="font-size: 1.6em;"></i>
+                        <i class="fab fa-twitch mr-3 mt-2" style="font-size: 1.6em;"></i>
+                        <i class="fab fa-instagram mr-3 mt-2 " style="font-size: 1.6em;"></i>
+                        <i class="fab fa-youtube mr-3 mt-2 " style="font-size: 1.6em;"></i>
+                        <i class="fas fa-rss mr-3 mt-2 " style="font-size: 1.6em;"></i>
+                    </div>
+                    <div class="link">
+                        <div class="row ml-5">
+
+                            <div class="col-2 mb-3 mt-5 ml-2 ">
+
+                                <!-- Links -->
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href="#!" id="a3" style="font-size: 12px;">Features</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!" id="a3"style="font-size: 12px;">Logo & Branding</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!" id="a3"style="font-size: 12px;">Roadmap</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!" id="a3"style="font-size: 12px;">Education</a>
+                                    </li>
+                                </ul>
+
+                            </div>
+                            <div class="col-2 mb-3 mt-5 ">
+
+                                <!-- Links -->
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href="#!" id="a3"style="font-size: 12px;">Academic Partner</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!" id="a3"style="font-size: 12px;">More Resources</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!" id="a3"style="font-size: 12px;">Awards</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!" id="a3"style="font-size: 12px;">Custom License Terms</a>
+                                    </li>
+                                </ul>
+
+                            </div>
+                            <div class="col-2 mb-3 mt-5">
+
+                                <!-- Links -->
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href="#!" id="a3"style="font-size: 12px;">Online Service</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!" id="a3"style="font-size: 12px;">Training Partners</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!" id="a3"style="font-size: 12px;">Community Rules</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!" id="a3"style="font-size: 12px;">Releasing your Game</a>
+                                    </li>
+                                </ul>
+
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+                <!-- Grid column -->
+
+                <hr class="clearfix w-100 d-md-none pb-3">
+
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-5 mb-md-0 mb-3  " style="background-color: #2a2a2a; text-align: right;">
+
+                    <!-- Links -->
+                    <i class="far fa-caret-square-up mr-5" style="font-size: 2.5em;"></i>
+
+                    <br>
+                        <button style=" right:0 ;font-size: 12px;">Sign up for Unreal Engine news!</button>
+                   
+
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row -->
+
+        </div>
+        <!-- Footer Links -->
+
+        <hr style="border-top: 1px solid rgb(65, 62, 62);" class="ml-5 mr-5">
+        <!-- Copyright -->
+        <div class="row" style="background-color: #2a2a2a; width:100%;">
+            <div class="col-md-12 " style="background-color: #2a2a2a;">
+                <p style="margin-left: 80px; color: #ccc; font-size: 12px;">© 2004-2020, Epic Games, Inc. All rights reserved. Unreal and its logo are
+                    Epic’s trademarks or registered trademarks in the US and elsewhere.</p>
+            </div>
+            <div class="col-md-10" style="background-color: #2a2a2a;">
+                <ul class="list-unstyled" style="white-space:nowrap; ">
+                    <li style="display:inline; ">
+                        <a href="#!" id="a3" style="margin-left: 80px;font-size: 12px;">Online Service</a>
+                    </li>
+                    <li style="display:inline; ">
+                        <a href="#!" id="a3"  style="margin-left: 15px;font-size: 12px;">Training Partners</a>
+                    </li>
+                </ul>
+
+
+            </div>
+            
+            <div class="col-md-2 mb-5" style="background-color: #2a2a2a;">
+                <a id="a3" href="https://www.w3schools.com" >
+                <img  class="mr-5"alt="W3Schools" src="source\img\apple-touch-icon.png"  style="float: right; width:2em; height: auto;"></a>
+                <a id="a3" href="https://www.w3schools.com">
+                    <img class="mr-3" alt="W3Schools" src="source\img\epic-games-2.svg"  style="float: right; width:2em;"></a>
+            </div>
+
+        </div>
+
+    </footer>
+    <!-- Footer -->
+</body>
+
+</html>
