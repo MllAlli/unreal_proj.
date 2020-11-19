@@ -260,7 +260,11 @@ img {
     font-size: 10px;
 }
 
-.dropdown-toggle::after {
+#navbarDropdown{
+    background-color: #2a2a2a;
+}
+
+#navbarDropdown::after {
     display:none;
 }
 #epic {
