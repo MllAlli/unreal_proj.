@@ -1,0 +1,360 @@
+@font-face {
+    font-family: 'BrutalType-Regular';
+    src: url('source/font/BrutalType-Regular.ttf');
+}
+@font-face {
+font-family: 'ExtraLight';
+    src: url('source/font/BrutalType-ExtraLight.ttf');
+}
+@font-face {
+    font-family: 'Medium';
+    src: url('source/font/BrutalType-Medium.ttf');
+    }
+@font-face {
+    font-family: 'Black';
+    src: url('source/font/BrutalType-Black.ttf');
+    }
+@font-face {
+    font-family: 'Bold';
+    src: url('source/font/BrutalType-Bold.ttf');
+    }
+@font-face {
+    font-family: 'light';
+    src: url('source/font/BrutalType-Light.ttf');
+    }
+@font-face {
+    font-family: 'Eurostar';
+    src: url('source/font/eurostarblackextended.ttf');
+    }
+
+    *{
+        font-family: 'BrutalType-Regular';
+        color: white;
+    }
+    p{
+        font-family: 'Medium';
+        color: white;
+        font-weight: bold;
+    }
+    
+    h1{
+        font-family: 'Medium';
+        color: white;
+        font-weight: bold;
+    }
+    
+    h3{
+        font-family: 'Medium';
+        color: white;
+        font-weight: bold;
+    }
+    
+    h2{
+        font-family: 'ExtraLight';
+        color: white;    
+    }
+    
+    h5{
+        font-family: 'Black';
+        color: white;    
+    }
+.image-box{
+    width: 100%;
+    height: 91%;
+    overflow: hidden;
+    position: relative;
+    
+    }
+.image-box-Bg-1 {
+    transform:scale(1);
+    background-repeat: no-repeat;
+    position: relative;
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.5)),url("source\\img\\neweb-labs-img2-1920x1080-269120917.jpg") center center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s;
+    
+
+}
+
+
+.info {
+    padding-left: 5%;
+    padding-right: 3%;
+    padding-top: 360px; 
+    padding-bottom: 100px;    
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #000000;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    bottom: 0;
+    text-decoration: none;
+    
+}
+.buttoninterview{
+    background-color:rgb(81, 170, 143);
+    color: white;
+    width: 100px;
+    height: 30px;
+    font-size: 13px;
+    cursor: pointer;
+    font-family: 'BrutalType-Regular';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.buttonnews{
+        background-color:#0996CC;
+        color: white;
+        width: 60px;
+        height: 30px;
+        font-size: 13px;
+        cursor: pointer;
+        font-family: 'BrutalType-Regular';
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+}
+
+
+.buttonspot{
+    background-color: rgb(188, 154, 67);
+    color: white;
+    width: 85px;
+    height: 30px;
+    font-size: 13px;
+    cursor: pointer;
+    font-family: 'BrutalType-Regular';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttonevent{
+    background-color: rgb(183, 28, 128);;
+    color: white;
+    width: 60px;
+    height: 30px;
+    font-size: 13px;
+    cursor: pointer;
+    font-family: 'BrutalType-Regular';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#card-col-7{
+    overflow: hidden;
+    height: 500px;
+   }
+#card-col-5{
+ overflow: hidden;
+ height: 500px;
+}
+#card-col-4{
+    overflow: hidden;
+    height: 500px;
+   }
+.zoom{
+    transform:scale(1);
+}
+
+.imageback-4{
+    width: 100%; 
+    height:70%;
+    background-repeat: no-repeat;
+    transform: scale(1); 
+    transition: all 0.5s; 
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.5)),url("source\\img\\Unreal+Engine_blog_connect-with-the-unreal-engine-community-online_UE_Community_Online_Feed-thumb-desktopV2-1400x788-2d63b21d92e3a7c142f5b401a36a0748025cca1d.png") center;
+}
+
+.imageback-41{
+  
+    width: 100%; 
+    height:70%;
+    background-repeat: no-repeat;
+    transform: scale(1); 
+    transition: all 0.5s; 
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.5)),url("source\\img\\news-edithfinch-feed-1920x1080-512656470.png") center;
+}
+.imageback-42{
+    width: 100%; 
+    height:70%;
+    background-repeat: no-repeat;
+    transform: scale(1); 
+    transition: all 0.5s; 
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.5)),url("source\\img\\feed-v2-news-pulseep4-1920x1080-468951295.jpg") center;
+}
+
+.imageback-43{
+    width: 100%; 
+    height:70%;
+    background-repeat: no-repeat;
+    transform: scale(1); 
+    transition: all 0.5s; 
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.5)),url("source\\img\\feed-1920x1080-458945314.jpg") center;
+}
+.imageback-44{
+    width: 100%; 
+    height:70%;
+    background-repeat: no-repeat;
+    transform: scale(1); 
+    transition: all 0.5s; 
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.5)),url("source\\img\\highresscreenshot00005-3968x2232-313297763.png") center;
+}
+.imageback-45{
+    width: 100%; 
+    height:70%;
+    background-repeat: no-repeat;
+    transform: scale(1); 
+    transition: all 0.5s; 
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.5)),url("source\\img\\news-thepulseep3-feed-v1-1920x1080-313492490.jpg") center;
+}
+.imageback-46{
+    width: 100%; 
+    height:70%;
+    background-repeat: no-repeat;
+    transform: scale(1); 
+    transition: all 0.5s; 
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.5)),url("source\\img\\kena-share-1200x630-322921056.png") center;
+}
+
+.imageback-3{
+    width: 100%; 
+    height:70%;
+    background-repeat: no-repeat;
+    transform: scale(1); 
+    transition: all 0.5s; 
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.5)),url("source\\img\\Unreal+Engine_blog_connect-with-the-unreal-engine-community-online_UE_Community_Online_Feed-thumb-desktopV2-1400x788-2d63b21d92e3a7c142f5b401a36a0748025cca1d.png") center;
+}
+.imageback-32{
+    width: 100%; 
+    height:70%;
+    background-repeat: no-repeat;
+    transform: scale(1); 
+    transition: all 0.5s; 
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.5)),url("source\\img\\feed-thumb-unwinnablerecapfall2020-1400x788-444294442.jpg") center;
+}
+.imageback-33{
+    width: 100%; 
+    height:70%;
+    background-repeat: no-repeat;
+    transform: scale(1); 
+    transition: all 0.5s; 
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.5)),url("source\\img\\raji-june-2020-ruins-04-1920x1170-270518207.png") center;
+}
+.imageback-7{
+    width: 100%; 
+    height:70%;
+    background-repeat: no-repeat;
+    transform: scale(1); 
+    transition: all 0.5s; 
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.5)),url("source\\img\\developerinterview-rhythm-of-the-universe-16-1920x1176-521915772.jpg") center;
+}
+.imageback-72{
+    width: 100%; 
+    height:70%;
+    background-repeat: no-repeat;
+    transform: scale(1); 
+    transition: all 0.5s; 
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.5)),url("source\\img\\feed-v2-1920x1080-467906871.jpg") center;
+}
+.imageback-73{
+    width: 100%; 
+    height:70%;
+    background-repeat: no-repeat;
+    transform: scale(1); 
+    transition: all 0.5s; 
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.5)),url("source\\img\\feed-uol-october-1920x1080-280336392.jpg") center;
+}
+.imageback-91{
+   
+    height: 550px;
+    background-repeat: no-repeat;
+    background: url("source\\img\\feed-1-spotlight-mhp-pagani-1920x1080-397764845.jpg") no-repeat;
+    background-size: cover;
+    width: 100%;
+   
+}
+.imageback-92{
+   
+    height: 550px;
+    background-repeat: no-repeat;
+    background: url("source\\img\\feed-spotlight-geist-1920x1080-449899827.jpg") no-repeat;
+    background-size: cover;
+    width: 100%;
+   
+}
+.imageback-93{
+   
+    height: 550px;
+    background-repeat: no-repeat;
+    background: url("source\\img\\feed-spotlight-bmw2020-1920x1080-089226744.jpg") no-repeat;
+    background-size: cover;
+    width: 100%;
+   
+}
+.imageback-94{
+   
+    height: 550px;
+    background-repeat: no-repeat;
+    background: url("source\\img\\feed-thumb-spotlight-efootball-pes2020-mobile-v2-1400x788-226435413.jpg") no-repeat;
+    background-size: cover;
+    width: 100%;
+   
+}
+.imageback-95{
+   
+    height: 550px;
+    background-repeat: no-repeat;
+    background: url("source\\img\\feed-spotlight-themill-1920x1080-193025151.jpg") no-repeat;
+    background-size: cover;
+    width: 100%;
+   
+}
+.imageback-96{
+   
+    height: 550px;
+    background-repeat: no-repeat;
+    background: url("source\\img\\feed-2-spotlight-ericelder-bootcamp-1920x1080-106916391.jpg") no-repeat;
+    background-size: cover;
+    width: 100%;
+   
+}
+
+.card-body{ 
+    position: absolute;
+    margin-top: 70%;
+    height: 600px;
+    background-color: #2a2a2a;
+    display: block;
+}
+
+.p1{
+    opacity: 0;
+    font-size: 14px;
+    transition: all 1.5s;
+}
+.child {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.child:before {
+    display: inline;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(52,73,94,0.75);
+}
+

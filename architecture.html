@@ -1,0 +1,272 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link href="architecture.css" rel="stylesheet">
+    <link href="navbar.css" rel="stylesheet">
+    <link href="footer.css" rel="stylesheet">
+    <link rel="shortcut icon" href="\source\img\apple-touch-icon.png?v=3">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <title>Architecture - Unreal Engine</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg" width="100%" style="background-color: #2a2a2a;"> 
+        <img id="epic" src="source\img\epic.png" href="https://www.epicgames.com/store/en-US/">
+        <img id="unr" src="source\img\UNREAL.png" href="index.html">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse navbar-expand-lg" id="navbar">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="news.html">NEWS</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        ABOUT
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="feature.html">FEATURES</a>
+                        <a class="dropdown-item" href="what's new.html">WHAT'S NEW</a>
+                        <a class="dropdown-item" href="https://portal.productboard.com/epicgames/1-unreal-engine-public-roadmap/tabs/20-unreal-engine-4-26-fall-2020">ROADMAP</a>
+                        <a class="dropdown-item" href="faq.html">FAQ</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    INDUSTRIES
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="games.html">GAMES</a>
+                        <a class="dropdown-item" href="architechture.html">ARCHITECHTURE</a>
+                        <a class="dropdown-item" href="automotive.html" style="line-height: 150%;">AUTOMOTIVE & <br>TRANSPORTATION</a>
+                        <a class="dropdown-item" href="broadcast.html" style="line-height: 150%;">BROADCAST & LIVE<br> EVENTS</a>
+                        <a class="dropdown-item" href="television.html">FILM & TELEVISION</a>
+                        <a class="dropdown-item" href="training.html" style="line-height: 150%;">TRAINING &<br> SIMULATION</a>
+                        <a class="dropdown-item" href="more_uses.html">MORE USES</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        LEARNING & SUPPORT
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="https://www.unrealengine.com/en-US/learn">GET STARTED</a>
+                        <a class="dropdown-item" href="https://docs.unrealengine.com/en-US/index.html">DOCUMENTATION</a>
+                        <a class="dropdown-item" href="https://www.unrealengine.com/en-US/onlinelearning-courses">ONLINE LEARNING</a>
+                        <a class="dropdown-item" href="https://www.unrealengine.com/en-US/events/webinar-series">WEBINARS</a>
+                        <a class="dropdown-item" href="https://www.unrealengine.com/en-US/education">EDUCATION</a>
+                        <a class="dropdown-item" href="https://www.unrealengine.com/en-US/support">SUPPORT</a>
+                        <a class="dropdown-item" href="https://issues.unrealengine.com/">ISSUES</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        COMMUNITY
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="https://forums.unrealengine.com/">FORUM</a>
+                        <a class="dropdown-item" href="https://answers.unrealengine.com/index.html">ANSWERHUB</a>
+                        <a class="dropdown-item" href="https://www.unrealengine.com/en-US/megagrants">MEGAGRANTS</a>
+                        <a class="dropdown-item" href="https://communities.unrealengine.com/">USER GROUPS</a>
+                        <a class="dropdown-item" href="https://www.unrealengine.com/en-US/feed/events">EVENTS</a>
+                        <a class="dropdown-item" href="https://www.unrealengine.com/en-US/programs/nvidia-edge">NVIDIA EDGE</a>
+                        <a class="dropdown-item" href="https://www.unrealengine.com/en-US/programs/intel-unreal">INTEL + UNREAL</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        MARKETPLACE
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item " href="https://www.unrealengine.com/marketplace/en-US/store?lang=en-US">BROWSE</a>
+                        <a class="dropdown-item " href="https://publish.unrealengine.com/v2/welcome">SUBMIT CONTENT</a>
+                        <a class="dropdown-item " href="https://marketplacehelp.epicgames.com/s/?language=en_US" style="line-height: 150%;">MARKETPLACE<br> KNOWLEDGE BASE</a>
+                        <a class="dropdown-item " href="https://www.unrealengine.com/en-US/marketplace-guidelines" style="line-height: 150%;">MARKETPLACE<br> GUIDLINES</a>
+                        <a class="dropdown-item " href="https://forums.unrealengine.com/unreal-engine/marketplace?56-Marketplace=">MARKETPLACE FORUMS</a>
+                    </div>
+                </li>
+            </ul>
+            <form class="form-inline my-0 my-lg-0" id="right">
+                <button class="btn btn-secondary2 my-2 my-sm-0" style="margin-right: 25px;">
+                    <img src="source/img/search.png" width="17px">
+                </button>
+                <button class="btn btn-secondary2 my-2 my-sm-0">
+                    <img src="source/img/globe.png" width="17px">
+                </button>
+                <button class="btn btn-secondary my-2 my-sm-0">
+                    <img src="source/img/user.png" width="15px">
+                    &nbsp SIGN IN</button>
+                <button class="btn my-2 my-sm-0" id="blue" href="https://www.unrealengine.com/en-US/download">DOWNLOAD</button>
+            </form>
+        </div>
+    </nav>
+    <div class="headerContentWrapper">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-12 header-title-wrap">
+                        <h1 style="font-size: 55px; text-shadow: 4px 4px 6px black;"><b>Choose your solution</b></h1>
+                        <h3 style="font-weight: lighter;text-shadow: 3px 4px 6px black; font-family: ExtraLight;">
+                            ARCHITECTURE</h3>
+                        <p>Epic Games offers two different solutions for real-time architectural visualization.</p>
+                    </div>
+                    <div class="col-12 bottom-title-wrap">
+                        <p>Epic Games offers two different solutions for real-time architectural visualization.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bottomContent">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 solution-section-0">
+                    <h2 style="font-weight: bold;">Unreal Engine</h2>
+                    <h4>For visualization specialists</h4>
+                    <p>Unreal Engine is a complete suite of creation tools for photoreal visuals and real-time immersive
+                        experiences. With uncompromised quality, powerful performance, and proven results, Unreal Engine
+                        is
+                        the flexible, open platform visualization specialists can rely on to take their asset anywhere.
+                    </p>
+                    <button class="container button-wrapper button1 btn">LEARN MORE</button>
+                </div>
+                <div class="col-lg-6 solution-section-1">
+                    <h2 style="font-weight: bold;">Twinmotion</h2>
+                    <h4>For architects and designers</h4>
+                    <p>Quickly and easily produce high-quality images, panoramas, and standard or 360° VR videos in
+                        seconds!
+                        For architecture, construction, urban planning, and landscaping professionals, Twinmotion
+                        combines
+                        an intuitive icon-driven interface with the power of Unreal Engine.</p>
+                    <button class="container button-wrapper button2  btn">LEARN MORE</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="page-footer  blue pt-4" id="footer">
+        <!-- Footer Links -->
+        <div class="container-fluid  text-md-left">
+            <!-- Grid row -->
+            <div class="row">
+                <!-- Grid column -->
+                <div class="col-md-7 mt-md-0 mt-3  " id="footer" style="background-color: #2a2a2a;">
+                    <!-- Content -->
+                    <div class="row ml-5">
+                        <i class="fab fa-twitter ml-4 mr-3 mt-2" style="font-size: 1.6em;"></i>
+                        <i class="fab fa-facebook-square mr-3 mt-2" style="font-size: 1.6em;"></i>
+                        <i class="fab fa-twitch mr-3 mt-2" style="font-size: 1.6em;"></i>
+                        <i class="fab fa-instagram mr-3 mt-2 " style="font-size: 1.6em;"></i>
+                        <i class="fab fa-youtube mr-3 mt-2 " style="font-size: 1.6em;"></i>
+                        <i class="fas fa-rss mr-3 mt-2 " style="font-size: 1.6em;"></i>
+                    </div>
+                    <div class="link">
+                        <div class="row ml-5">
+                            <div class="col-2 mb-3 mt-5 ml-2 ">
+                                <!-- Links -->
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href="#!" style="font-size: 12px;">Features</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!" style="font-size: 12px;">Logo & Branding</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!" style="font-size: 12px;">Roadmap</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!" style="font-size: 12px;">Education</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-2 mb-3 mt-5 ">
+                                <!-- Links -->
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href="#!" style="font-size: 12px;">Academic Partner</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!" style="font-size: 12px;">More Resources</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!" style="font-size: 12px;">Awards</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!" style="font-size: 12px;">Custom License Terms</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-2 mb-3 mt-5">
+                                <!-- Links -->
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href="#!" style="font-size: 12px;">Online Service</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!" style="font-size: 12px;">Training Partners</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!" style="font-size: 12px;">Community Rules</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!" style="font-size: 12px;">Releasing your Game</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Grid column -->
+                <hr class="clearfix w-100 d-md-none pb-3">
+                <!-- Grid column -->
+                <!-- Grid column -->
+                <div class="col-md-5 mb-md-0 mb-3  " style="background-color: #2a2a2a; text-align: right;">
+                    <!-- Links -->
+                    <i class="far fa-caret-square-up mr-5" style="font-size: 2.5em;"></i>
+                    <br>
+                    <button style=" right:0 ;font-size: 12px;">Sign up for Unreal Engine news!</button>
+                </div>
+                <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+        </div>
+        <!-- Footer Links -->
+        <hr style="border-top: 1px solid rgb(65, 62, 62);" class="ml-5 mr-5">
+        <!-- Copyright -->
+        <div class="row" style="background-color: #2a2a2a; width:100%;">
+            <div class="col-md-12 " style="background-color: #2a2a2a;">
+                <p style="margin-left: 80px; color: #ccc; font-size: 12px;">© 2004-2020, Epic Games, Inc. All rights
+                    reserved. Unreal and its logo are
+                    Epic’s trademarks or registered trademarks in the US and elsewhere.</p>
+            </div>
+            <div class="col-md-10" style="background-color: #2a2a2a;">
+                <ul class="list-unstyled" style="white-space:nowrap; ">
+                    <li style="display:inline; ">
+                        <a href="#!" style="margin-left: 80px;font-size: 12px;">Online Service</a>
+                    </li>
+                    <li style="display:inline; ">
+                        <a href="#!" style="margin-left: 15px;font-size: 12px;">Training Partners</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-2 mb-5" style="background-color: #2a2a2a;">
+                <a href="https://www.w3schools.com">
+                    <img class="mr-5" alt="W3Schools" src="source\img\apple-touch-icon.png"
+                        style="float: right; width:2em; height: auto;"></a>
+                <a href="https://www.w3schools.com">
+                    <img class="mr-3" alt="W3Schools" src="source\img\epic-games-2.svg"
+                        style="float: right; width:2em;"></a>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer -->
+</body>
+
+</html>
